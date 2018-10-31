@@ -1,0 +1,421 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:svg="http://sharpvectors.codeplex.com/runtime/">
+  <DrawingGroup x:Name="DrawingLayer" svg:SvgLink.Key="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,81,45" />
+    </DrawingGroup.ClipGeometry>
+    <GeometryDrawing>
+      <GeometryDrawing.Pen>
+        <Pen Brush="#00FFFFFF" Thickness="1" />
+      </GeometryDrawing.Pen>
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry Rect="0,0,81,45" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <DrawingGroup x:Name="silkscreen" Opacity="1" Transform="1,0,0,1,0,-1007.362" svg:SvgObject.Id="silkscreen">
+      <GeometryDrawing x:Name="rect6737" svg:SvgObject.Id="rect6737">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFFFFFF" Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M4.5,1025.362L4.5,1034.362C6.9852814,1034.362 9,1032.3473 9,1029.862 9,1027.3767 6.9852814,1025.362 4.5,1025.362z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect6742" svg:SvgObject.Id="rect6742">
+        <GeometryDrawing.Pen>
+          <Pen Brush="#FFFFFFFF" Thickness="0.40249223" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
+        </GeometryDrawing.Pen>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="4.5,1011.862,72,36" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="copper0" Opacity="1" svg:SvgObject.Id="copper0">
+        <GeometryDrawing x:Name="connector1pad" svg:SvgObject.Id="connector1pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,0,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector16pad" svg:SvgObject.Id="connector16pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,0,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector2pad" svg:SvgObject.Id="connector2pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,9,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,9,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector15pad" svg:SvgObject.Id="connector15pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,9,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,9,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector3pad" svg:SvgObject.Id="connector3pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,18,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,18,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector14pad" svg:SvgObject.Id="connector14pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,18,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,18,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector4pad" svg:SvgObject.Id="connector4pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,27,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,27,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector13pad" svg:SvgObject.Id="connector13pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,27,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,27,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector5pad" svg:SvgObject.Id="connector5pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,36,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,36,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector12pad" svg:SvgObject.Id="connector12pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,36,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,36,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector6pad" svg:SvgObject.Id="connector6pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,45,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,45,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector11pad" svg:SvgObject.Id="connector11pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,45,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,45,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector7pad" svg:SvgObject.Id="connector7pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,54,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,54,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector10pad" svg:SvgObject.Id="connector10pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,54,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,54,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector8pad" svg:SvgObject.Id="connector8pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,63,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,63,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector9pad" svg:SvgObject.Id="connector9pad">
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,63,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,63,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="copper1" Opacity="1" svg:SvgObject.Id="copper1">
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,0,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,0,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,9,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,9,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,9,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,9,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,18,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,18,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,18,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,18,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,27,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,27,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,27,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,27,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,36,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,36,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,36,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,36,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,45,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,45,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,45,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,45,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,54,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,54,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,54,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,54,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,63,998.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,63,998.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing>
+          <GeometryDrawing.Pen>
+            <Pen Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+              <Pen.Brush>
+                <SolidColorBrush Color="#FFF6CA34" Opacity="1" Transform="1,0,0,1,63,971.362" />
+              </Pen.Brush>
+            </Pen>
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,63,971.362" Figures="M11.25,45A2.25,2.25,0,1,1,6.75,45A2.25,2.25,0,1,1,11.25,45z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

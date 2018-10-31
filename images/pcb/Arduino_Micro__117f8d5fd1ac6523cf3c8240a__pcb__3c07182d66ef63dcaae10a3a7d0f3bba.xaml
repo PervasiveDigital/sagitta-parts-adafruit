@@ -1,0 +1,447 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:svg="http://sharpvectors.codeplex.com/runtime/">
+  <DrawingGroup x:Name="DrawingLayer" svg:SvgLink.Key="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,63,180" />
+    </DrawingGroup.ClipGeometry>
+    <GeometryDrawing>
+      <GeometryDrawing.Pen>
+        <Pen Brush="#00FFFFFF" Thickness="1" />
+      </GeometryDrawing.Pen>
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry Rect="0,0,63,180" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <DrawingGroup x:Name="layer1" Opacity="1" Transform="1,0,0,1,0,-872.35975" svg:SvgObject.Id="layer1" />
+    <DrawingGroup x:Name="layer2" Opacity="1" Transform="1,0,0,1,0,-270" svg:SvgObject.Id="layer2" />
+    <DrawingGroup x:Name="layer3" Opacity="1" Transform="1,0,0,1,0,-270" svg:SvgObject.Id="layer3" />
+    <DrawingGroup x:Name="layer4" Opacity="1" Transform="1,0,0,1,0,-270" svg:SvgObject.Id="layer4">
+      <DrawingGroup x:Name="pcb" Opacity="1" svg:SvgObject.Id="pcb">
+        <DrawingGroup x:Name="copper0" Opacity="1" svg:SvgObject.Id="copper0">
+          <GeometryDrawing x:Name="connector5pin" svg:SvgObject.Id="connector5pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,278.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,278.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector4pin" svg:SvgObject.Id="connector4pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,269.67137" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,269.67137" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector3pin" svg:SvgObject.Id="connector3pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,260.67137" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,260.67137" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector2pin" svg:SvgObject.Id="connector2pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,251.67137" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,251.67137" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector1pin" svg:SvgObject.Id="connector1pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,242.67137" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,242.67137" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector6pin" svg:SvgObject.Id="connector6pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,287.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,287.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector11pin" svg:SvgObject.Id="connector11pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,332.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,332.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector10pin" svg:SvgObject.Id="connector10pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,323.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,323.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector9pin" svg:SvgObject.Id="connector9pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,314.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,314.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector8pin" svg:SvgObject.Id="connector8pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,305.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,305.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector7pin" svg:SvgObject.Id="connector7pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,296.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,296.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector12pin" svg:SvgObject.Id="connector12pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,341.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,341.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector16pin" svg:SvgObject.Id="connector16pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,377.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,377.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector15pin" svg:SvgObject.Id="connector15pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,368.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,368.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector14pin" svg:SvgObject.Id="connector14pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,359.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,359.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector13pin" svg:SvgObject.Id="connector13pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,350.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,350.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector17pin" svg:SvgObject.Id="connector17pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,95.621615,386.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,95.621615,386.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector30pin" svg:SvgObject.Id="connector30pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,278.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,278.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector31pin" svg:SvgObject.Id="connector31pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,269.67137" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,269.67137" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector32pin" svg:SvgObject.Id="connector32pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,260.67137" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,260.67137" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector33pin" svg:SvgObject.Id="connector33pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,251.67137" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,251.67137" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector34pin" svg:SvgObject.Id="connector34pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,242.67137" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,242.67137" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector29pin" svg:SvgObject.Id="connector29pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,287.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,287.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector24pin" svg:SvgObject.Id="connector24pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,332.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,332.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector25pin" svg:SvgObject.Id="connector25pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,323.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,323.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector26pin" svg:SvgObject.Id="connector26pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,314.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,314.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector27pin" svg:SvgObject.Id="connector27pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,305.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,305.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector28pin" svg:SvgObject.Id="connector28pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,296.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,296.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector23pin" svg:SvgObject.Id="connector23pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,341.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,341.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector19pin" svg:SvgObject.Id="connector19pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,377.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,377.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector20pin" svg:SvgObject.Id="connector20pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,368.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,368.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector21pin" svg:SvgObject.Id="connector21pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,359.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,359.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector22pin" svg:SvgObject.Id="connector22pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,350.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,350.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+          <GeometryDrawing x:Name="connector18pin" svg:SvgObject.Id="connector18pin">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="2.57787323" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFD555" Opacity="1" Transform="0,0.69825,-0.69825,0,149.62162,386.67136" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="0,0.69825,-0.69825,0,149.62162,386.67136" Figures="M62.1,130.5A3.5999999,3.5999999,0,1,1,54.9,130.5A3.5999999,3.5999999,0,1,1,62.1,130.5z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+        </DrawingGroup>
+        <DrawingGroup x:Name="silkscreen" Opacity="1" svg:SvgObject.Id="silkscreen">
+          <GeometryDrawing x:Name="rect9204" svg:SvgObject.Id="rect9204">
+            <GeometryDrawing.Pen>
+              <Pen Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
+                <Pen.Brush>
+                  <SolidColorBrush Color="#FFFFFFFF" Opacity="1" Transform="1,0,0,1,0,270" />
+                </Pen.Brush>
+              </Pen>
+            </GeometryDrawing.Pen>
+            <GeometryDrawing.Geometry>
+              <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,270" Figures="M0,0L0,171 18,171 18,175.5 45,175.5 45,171 63,171 63,0 0,0z" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <DrawingGroup x:Name="layer8" Opacity="1" Transform="1,0,0,1,0,-270" svg:SvgObject.Id="layer8" />
+  </DrawingGroup>
+</DrawingGroup>

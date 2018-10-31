@@ -1,0 +1,279 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:svg="http://sharpvectors.codeplex.com/runtime/">
+  <DrawingGroup x:Name="DrawingLayer" svg:SvgLink.Key="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,45.354,14.173" />
+    </DrawingGroup.ClipGeometry>
+    <GeometryDrawing>
+      <GeometryDrawing.Pen>
+        <Pen Brush="#00FFFFFF" Thickness="1" />
+      </GeometryDrawing.Pen>
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry Rect="0,0,45.354,14.173" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <DrawingGroup x:Name="pcb" Opacity="1" svg:SvgObject.Id="pcb">
+      <DrawingGroup x:Name="copper0" Opacity="1" svg:SvgObject.Id="copper0">
+        <GeometryDrawing x:Name="connector3pin" svg:SvgObject.Id="connector3pin">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFF6CA34" Thickness="1.8" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="1" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="2.239" RadiusY="2.239" Center="4.677,4.936" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector2pin" svg:SvgObject.Id="connector2pin">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFF6CA34" Thickness="1.8" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="1" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="2.239" RadiusY="2.239" Center="11.877,4.936" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector1pin" svg:SvgObject.Id="connector1pin">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFF6CA34" Thickness="1.8" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="1" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="2.239" RadiusY="2.239" Center="19.077,4.936" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector6pin" svg:SvgObject.Id="connector6pin">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFF6CA34" Thickness="1.8" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="1" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="2.239" RadiusY="2.239" Center="26.277,4.936" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector5pin" svg:SvgObject.Id="connector5pin">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFF6CA34" Thickness="1.8" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="1" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="2.239" RadiusY="2.239" Center="33.477,4.936" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector4pin" svg:SvgObject.Id="connector4pin">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FFF6CA34" Thickness="1.8" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" MiterLimit="1" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="2.239" RadiusY="2.239" Center="40.677,4.936" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+      <DrawingGroup x:Name="silkscreen" Opacity="1" svg:SvgObject.Id="silkscreen">
+        <DrawingGroup Opacity="1" Transform="1,0,0,1,0,-11.8004">
+          <DrawingGroup Opacity="1">
+            <DrawingGroup Opacity="1">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup x:Name="text8757_1_" Opacity="1" svg:SvgObject.Id="text8757_1_">
+                    <DrawingGroup x:Name="tspan8759_1_" Opacity="1" svg:SvgObject.Id="tspan8759_1_">
+                      <DrawingGroup Opacity="1" Transform="1,0,0,1,0.8818,23.3856">
+                        <DrawingGroup Opacity="1">
+                          <DrawingGroup Opacity="1">
+                            <DrawingGroup Opacity="1">
+                              <DrawingGroup x:Name="tspan12480_1_" svg:SvgObject.Id="tspan12480_1_" svg:SvgObject.Type="Text">
+                                <DrawingGroup>
+                                  <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
+                                    <GlyphRunDrawing.GlyphRun>
+                                      <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="2.8" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="+5V" GlyphIndices="14 24 57" AdvanceWidths="1.918 1.5092 1.7388" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                                        <GlyphRun.GlyphTypeface>
+                                          <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
+                                        </GlyphRun.GlyphTypeface>
+                                      </GlyphRun>
+                                    </GlyphRunDrawing.GlyphRun>
+                                  </GlyphRunDrawing>
+                                </DrawingGroup>
+                              </DrawingGroup>
+                            </DrawingGroup>
+                          </DrawingGroup>
+                        </DrawingGroup>
+                      </DrawingGroup>
+                    </DrawingGroup>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+        <DrawingGroup Opacity="1" Transform="1,0,0,1,0,-23.0004">
+          <DrawingGroup Opacity="1">
+            <DrawingGroup Opacity="1">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup x:Name="text8761_1_" Opacity="1" svg:SvgObject.Id="text8761_1_">
+                    <DrawingGroup x:Name="tspan8763_1_" Opacity="1" svg:SvgObject.Id="tspan8763_1_">
+                      <DrawingGroup Opacity="1" Transform="1,0,0,1,8.9221,34.6356">
+                        <DrawingGroup Opacity="1">
+                          <DrawingGroup Opacity="1">
+                            <DrawingGroup Opacity="1">
+                              <DrawingGroup x:Name="tspan12478_1_" svg:SvgObject.Id="tspan12478_1_" svg:SvgObject.Type="Text">
+                                <DrawingGroup>
+                                  <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
+                                    <GlyphRunDrawing.GlyphRun>
+                                      <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="2.8" BidiLevel="0" IsSideways="False" ClusterMap="0 1" Characters="DI" GlyphIndices="39 44" AdvanceWidths="1.9628 0.7476" GlyphOffsets="0,0 0,0" Language="en-us">
+                                        <GlyphRun.GlyphTypeface>
+                                          <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
+                                        </GlyphRun.GlyphTypeface>
+                                      </GlyphRun>
+                                    </GlyphRunDrawing.GlyphRun>
+                                  </GlyphRunDrawing>
+                                </DrawingGroup>
+                              </DrawingGroup>
+                            </DrawingGroup>
+                          </DrawingGroup>
+                        </DrawingGroup>
+                      </DrawingGroup>
+                    </DrawingGroup>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+        <DrawingGroup Opacity="1" Transform="1,0,0,1,0,-11.8002">
+          <DrawingGroup Opacity="1">
+            <DrawingGroup Opacity="1">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup x:Name="text8765" Opacity="1" svg:SvgObject.Id="text8765">
+                    <DrawingGroup x:Name="tspan8767" Opacity="1" svg:SvgObject.Id="tspan8767">
+                      <DrawingGroup Opacity="1" Transform="1,0,0,1,14.5729,23.3856">
+                        <DrawingGroup Opacity="1">
+                          <DrawingGroup Opacity="1">
+                            <DrawingGroup Opacity="1">
+                              <DrawingGroup x:Name="tspan12476" svg:SvgObject.Id="tspan12476" svg:SvgObject.Type="Text">
+                                <DrawingGroup>
+                                  <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
+                                    <GlyphRunDrawing.GlyphRun>
+                                      <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="2.8" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="GND" GlyphIndices="42 49 39" AdvanceWidths="1.9208 2.0944 1.9628" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                                        <GlyphRun.GlyphTypeface>
+                                          <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
+                                        </GlyphRun.GlyphTypeface>
+                                      </GlyphRun>
+                                    </GlyphRunDrawing.GlyphRun>
+                                  </GlyphRunDrawing>
+                                </DrawingGroup>
+                              </DrawingGroup>
+                            </DrawingGroup>
+                          </DrawingGroup>
+                        </DrawingGroup>
+                      </DrawingGroup>
+                    </DrawingGroup>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+        <DrawingGroup Opacity="1" Transform="1,0,0,1,27,-11.8004">
+          <DrawingGroup Opacity="1">
+            <DrawingGroup Opacity="1">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup x:Name="g6732" Opacity="1" svg:SvgObject.Id="g6732">
+                    <DrawingGroup x:Name="text6734" Opacity="1" svg:SvgObject.Id="text6734">
+                      <DrawingGroup Opacity="1" Transform="1,0,0,1,-3.8098,23.3856">
+                        <DrawingGroup Opacity="1">
+                          <DrawingGroup Opacity="1">
+                            <DrawingGroup Opacity="1">
+                              <DrawingGroup x:Name="tspan12474" svg:SvgObject.Id="tspan12474" svg:SvgObject.Type="Text">
+                                <DrawingGroup>
+                                  <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
+                                    <GlyphRunDrawing.GlyphRun>
+                                      <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="2.8" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="GND" GlyphIndices="42 49 39" AdvanceWidths="1.9208 2.0944 1.9628" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                                        <GlyphRun.GlyphTypeface>
+                                          <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
+                                        </GlyphRun.GlyphTypeface>
+                                      </GlyphRun>
+                                    </GlyphRunDrawing.GlyphRun>
+                                  </GlyphRunDrawing>
+                                </DrawingGroup>
+                              </DrawingGroup>
+                            </DrawingGroup>
+                          </DrawingGroup>
+                        </DrawingGroup>
+                      </DrawingGroup>
+                    </DrawingGroup>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+        <DrawingGroup Opacity="1" Transform="1,0,0,1,27.015635,-23.0004">
+          <DrawingGroup Opacity="1">
+            <DrawingGroup Opacity="1">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup x:Name="g4611_1_" Opacity="1" svg:SvgObject.Id="g4611_1_">
+                    <DrawingGroup x:Name="text4613_1_" Opacity="1" svg:SvgObject.Id="text4613_1_">
+                      <DrawingGroup Opacity="1" Transform="1,0,0,1,4.2155,34.6356">
+                        <DrawingGroup Opacity="1">
+                          <DrawingGroup Opacity="1">
+                            <DrawingGroup Opacity="1">
+                              <DrawingGroup x:Name="tspan4615_1_" svg:SvgObject.Id="tspan4615_1_" svg:SvgObject.Type="Text">
+                                <DrawingGroup>
+                                  <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
+                                    <GlyphRunDrawing.GlyphRun>
+                                      <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="2.8" BidiLevel="0" IsSideways="False" ClusterMap="0 1" Characters="DO" GlyphIndices="39 50" AdvanceWidths="1.9628 2.1112" GlyphOffsets="0,0 0,0" Language="en-us">
+                                        <GlyphRun.GlyphTypeface>
+                                          <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
+                                        </GlyphRun.GlyphTypeface>
+                                      </GlyphRun>
+                                    </GlyphRunDrawing.GlyphRun>
+                                  </GlyphRunDrawing>
+                                </DrawingGroup>
+                              </DrawingGroup>
+                            </DrawingGroup>
+                          </DrawingGroup>
+                        </DrawingGroup>
+                      </DrawingGroup>
+                    </DrawingGroup>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+        <DrawingGroup Opacity="1" Transform="1,0,0,1,27.015635,-11.8002">
+          <DrawingGroup Opacity="1">
+            <DrawingGroup Opacity="1">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup x:Name="g4617_1_" Opacity="1" svg:SvgObject.Id="g4617_1_">
+                    <DrawingGroup x:Name="text4619_1_" Opacity="1" svg:SvgObject.Id="text4619_1_">
+                      <DrawingGroup Opacity="1" Transform="1,0,0,1,9.8657,23.3856">
+                        <DrawingGroup Opacity="1">
+                          <DrawingGroup Opacity="1">
+                            <DrawingGroup Opacity="1">
+                              <DrawingGroup x:Name="tspan4621_1_" svg:SvgObject.Id="tspan4621_1_" svg:SvgObject.Type="Text">
+                                <DrawingGroup>
+                                  <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
+                                    <GlyphRunDrawing.GlyphRun>
+                                      <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="2.8" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="+5V" GlyphIndices="14 24 57" AdvanceWidths="1.918 1.5092 1.7388" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                                        <GlyphRun.GlyphTypeface>
+                                          <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
+                                        </GlyphRun.GlyphTypeface>
+                                      </GlyphRun>
+                                    </GlyphRunDrawing.GlyphRun>
+                                  </GlyphRunDrawing>
+                                </DrawingGroup>
+                              </DrawingGroup>
+                            </DrawingGroup>
+                          </DrawingGroup>
+                        </DrawingGroup>
+                      </DrawingGroup>
+                    </DrawingGroup>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

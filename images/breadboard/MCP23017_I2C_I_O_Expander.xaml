@@ -1,0 +1,350 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:svg="http://sharpvectors.codeplex.com/runtime/">
+  <DrawingGroup x:Name="DrawingLayer" svg:SvgLink.Key="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,135,45" />
+    </DrawingGroup.ClipGeometry>
+    <GeometryDrawing>
+      <GeometryDrawing.Pen>
+        <Pen Brush="#00FFFFFF" Thickness="1" />
+      </GeometryDrawing.Pen>
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry Rect="0,0,135,45" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <DrawingGroup x:Name="breadboard" Opacity="1" svg:SvgObject.Id="breadboard">
+      <GeometryDrawing x:Name="connector1pin" Brush="#FF999999" svg:SvgObject.Id="connector1pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="7.2,34.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector2pin" Brush="#FF999999" svg:SvgObject.Id="connector2pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="16.2,34.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector3pin" Brush="#FF999999" svg:SvgObject.Id="connector3pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="25.2,34.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector4pin" Brush="#FF999999" svg:SvgObject.Id="connector4pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="34.2,34.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector5pin" Brush="#FF999999" svg:SvgObject.Id="connector5pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="43.2,34.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector6pin" Brush="#FF999999" svg:SvgObject.Id="connector6pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="52.2,34.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector7pin" Brush="#FF999999" svg:SvgObject.Id="connector7pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="61.2,34.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector8pin" Brush="#FF999999" svg:SvgObject.Id="connector8pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="70.2,34.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5756" Brush="#FF999999" svg:SvgObject.Id="path5756">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M16.2,34.2L14.85,33.3 14.85,31.5 21.15,31.5 21.15,33.3 19.8,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5758" Brush="#FF999999" svg:SvgObject.Id="path5758">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M7.2,34.2L7.2,31.5 12.15,31.5 12.15,33.3 10.8,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5760" Brush="#FF999999" svg:SvgObject.Id="path5760">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M25.2,34.2L23.85,33.3 23.85,31.5 30.15,31.5 30.15,33.3 28.8,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5762" Brush="#FF999999" svg:SvgObject.Id="path5762">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M34.2,34.2L32.85,33.3 32.85,31.5 39.15,31.5 39.15,33.3 37.8,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5764" Brush="#FF999999" svg:SvgObject.Id="path5764">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M43.2,34.2L41.85,33.3 41.85,31.5 48.15,31.5 48.15,33.3 46.8,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5766" Brush="#FF999999" svg:SvgObject.Id="path5766">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M52.2,34.2L50.85,33.3 50.85,31.5 57.15,31.5 57.15,33.3 55.8,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5768" Brush="#FF999999" svg:SvgObject.Id="path5768">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M61.2,34.2L59.85,33.3 59.85,31.5 66.15,31.5 66.15,33.3 64.8,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5770" Brush="#FF999999" svg:SvgObject.Id="path5770">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M127.8,34.2L127.8,31.5 122.85,31.5 122.85,33.3 124.2,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector16pin" Brush="#FF999999" svg:SvgObject.Id="connector16pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="115.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector15pin" Brush="#FF999999" svg:SvgObject.Id="connector15pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="124.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector14pin" svg:SvgObject.Id="connector14pin">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF999999" Opacity="1" Transform="-1,0,0,-1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-127.8,-37.8,3.6,3.6" Transform="-1,0,0,-1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector13pin" svg:SvgObject.Id="connector13pin">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF999999" Opacity="1" Transform="-1,0,0,-1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-118.8,-37.8,3.6,3.6" Transform="-1,0,0,-1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector12pin" svg:SvgObject.Id="connector12pin">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF999999" Opacity="1" Transform="-1,0,0,-1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-109.8,-37.8,3.6,3.6" Transform="-1,0,0,-1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector11pin" svg:SvgObject.Id="connector11pin">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF999999" Opacity="1" Transform="-1,0,0,-1,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-100.8,-37.8,3.6,3.6" Transform="-1,0,0,-1,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector10pin" Brush="#FF999999" svg:SvgObject.Id="connector10pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="88.2,34.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector9pin" Brush="#FF999999" svg:SvgObject.Id="connector9pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="79.2,34.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5772" Brush="#FF999999" svg:SvgObject.Id="path5772">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M16.2,10.8L14.85,11.7 14.85,13.5 21.15,13.5 21.15,11.7 19.8,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5774" Brush="#FF999999" svg:SvgObject.Id="path5774">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M7.2,10.8L7.2,13.5 12.15,13.5 12.15,11.7 10.8,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5776" Brush="#FF999999" svg:SvgObject.Id="path5776">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M25.2,10.8L23.85,11.7 23.85,13.5 30.15,13.5 30.15,11.7 28.8,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5778" Brush="#FF999999" svg:SvgObject.Id="path5778">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M34.2,10.8L32.85,11.7 32.85,13.5 39.15,13.5 39.15,11.7 37.8,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5780" Brush="#FF999999" svg:SvgObject.Id="path5780">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M43.2,10.8L41.85,11.7 41.85,13.5 48.15,13.5 48.15,11.7 46.8,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5782" Brush="#FF999999" svg:SvgObject.Id="path5782">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M52.2,10.8L50.85,11.7 50.85,13.5 57.15,13.5 57.15,11.7 55.8,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5784" Brush="#FF999999" svg:SvgObject.Id="path5784">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M97.2,10.8L95.85,11.7 95.85,13.5 102.15,13.5 102.15,11.7 100.8,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path5786" Brush="#FF999999" svg:SvgObject.Id="path5786">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M127.8,10.8L127.8,13.5 122.85,13.5 122.85,11.7 124.2,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="rect5716" Brush="#FF333333" svg:SvgObject.Id="rect5716">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="4.5,13.4917,126,18.0083" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <DrawingGroup x:Name="text5796" Opacity="1" Transform="1,0,0,1,9.0103905,-450.5996" svg:SvgObject.Id="text5796">
+        <DrawingGroup x:Name="tspan5798" Opacity="1" svg:SvgObject.Id="tspan5798">
+          <DrawingGroup x:Name="tspan7125" svg:SvgObject.Id="tspan7125" svg:SvgObject.Type="Text">
+            <DrawingGroup>
+              <GlyphRunDrawing>
+                <GlyphRunDrawing.GlyphRun>
+                  <GlyphRun PixelsPerDip="2.5" BaselineOrigin="39.1767866666667,476.2496" FontRenderingEmSize="8" BidiLevel="0" IsSideways="False" Characters="MCP23017" GlyphIndices="48 38 51 21 22 19 20 26" AdvanceWidths="4.832 4.832 4.832 4.832 4.832 4.832 4.832 4.832" Language="en-us">
+                    <GlyphRun.GlyphTypeface>
+                      <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/ocraext.ttf}" StyleSimulations="None" />
+                    </GlyphRun.GlyphTypeface>
+                  </GlyphRun>
+                </GlyphRunDrawing.GlyphRun>
+                <GlyphRunDrawing.ForegroundBrush>
+                  <SolidColorBrush Color="#FFFFFFFF" Opacity="0.23529412" />
+                </GlyphRunDrawing.ForegroundBrush>
+              </GlyphRunDrawing>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+      </DrawingGroup>
+      <GeometryDrawing x:Name="path3050" Brush="#FF999999" svg:SvgObject.Id="path3050">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M70.2,34.2L68.85,33.3 68.85,31.5 75.15,31.5 75.15,33.3 73.8,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3052" Brush="#FF999999" svg:SvgObject.Id="path3052">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M79.2,34.2L77.85,33.3 77.85,31.5 84.15,31.5 84.15,33.3 82.8,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3054" Brush="#FF999999" svg:SvgObject.Id="path3054">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M115.2,10.8L113.85,11.7 113.85,13.5 120.15,13.5 120.15,11.7 118.8,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3056" Brush="#FF999999" svg:SvgObject.Id="path3056">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M106.2,10.8L104.85,11.7 104.85,13.5 111.15,13.5 111.15,11.7 109.8,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector20pin" Brush="#FF999999" svg:SvgObject.Id="connector20pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="79.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector19pin" Brush="#FF999999" svg:SvgObject.Id="connector19pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="88.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector18pin" Brush="#FF999999" svg:SvgObject.Id="connector18pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="97.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector17pin" Brush="#FF999999" svg:SvgObject.Id="connector17pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="106.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path3842" svg:SvgObject.Id="path3842">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FFFFFFFF" Opacity="0.15686275" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M4.5,13.5L4.5,14.40625 4.5,18.90625 5.3125,18.90625C7.1360302,19.098639 8.5625,20.624276 8.5625,22.5 8.5625,24.381136 7.1436509,25.908593 5.3125,26.09375L4.5,26.09375 4.5,31.5 6.3125,29.6875 6.3125,27.6875C8.6139721,27.079589 10.3125,24.989993 10.3125,22.5 10.3125,20.010007 8.6139722,17.920411 6.3125,17.3125L6.3125,15.3125 92.6875,15.3125 128.6875,15.3125 130.5,13.5 94.5,13.5 92.6875,13.5 5.40625,13.5 4.5,13.5z" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path7926" svg:SvgObject.Id="path7926">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#FF000000" Opacity="0.23529412" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M4.5,31.5L130.5,31.5 130.5,13.5 128.7,15.3 128.7,29.7 6.29999999999998,29.7 4.49999999999998,31.5" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path8471" Brush="#FF999999" svg:SvgObject.Id="path8471">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M88.2,34.2L86.85,33.3 86.85,31.5 93.15,31.5 93.15,33.3 91.8,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path8473" Brush="#FF999999" svg:SvgObject.Id="path8473">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M97.2,34.2L95.85,33.3 95.85,31.5 102.15,31.5 102.15,33.3 100.8,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path8475" Brush="#FF999999" svg:SvgObject.Id="path8475">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M106.2,34.2L104.85,33.3 104.85,31.5 111.15,31.5 111.15,33.3 109.8,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path8477" Brush="#FF999999" svg:SvgObject.Id="path8477">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M115.2,34.2L113.85,33.3 113.85,31.5 120.15,31.5 120.15,33.3 118.8,34.2" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path8479" Brush="#FF999999" svg:SvgObject.Id="path8479">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M61.2,10.8L59.85,11.7 59.85,13.5 66.15,13.5 66.15,11.7 64.8,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path8481" Brush="#FF999999" svg:SvgObject.Id="path8481">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M79.2,10.8L77.85,11.7 77.85,13.5 84.15,13.5 84.15,11.7 82.8,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path8483" Brush="#FF999999" svg:SvgObject.Id="path8483">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M70.2,10.8L68.85,11.7 68.85,13.5 75.15,13.5 75.15,11.7 73.8,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path8485" Brush="#FF999999" svg:SvgObject.Id="path8485">
+        <GeometryDrawing.Geometry>
+          <PathGeometry FillRule="Nonzero" Figures="M88.2,10.8L86.85,11.7 86.85,13.5 93.15,13.5 93.15,11.7 91.8,10.8" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector22pin" Brush="#FF999999" svg:SvgObject.Id="connector22pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="61.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector21pin" Brush="#FF999999" svg:SvgObject.Id="connector21pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="70.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector26pin" Brush="#FF999999" svg:SvgObject.Id="connector26pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="25.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector25pin" Brush="#FF999999" svg:SvgObject.Id="connector25pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="34.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector24pin" Brush="#FF999999" svg:SvgObject.Id="connector24pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="43.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector23pin" Brush="#FF999999" svg:SvgObject.Id="connector23pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="52.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector28pin" Brush="#FF999999" svg:SvgObject.Id="connector28pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="7.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector27pin" Brush="#FF999999" svg:SvgObject.Id="connector27pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="16.2,7.2,3.6,3.6" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+    </DrawingGroup>
+  </DrawingGroup>
+</DrawingGroup>

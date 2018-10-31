@@ -1,0 +1,303 @@
+﻿<DrawingGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:svg="http://sharpvectors.codeplex.com/runtime/">
+  <DrawingGroup x:Name="DrawingLayer" svg:SvgLink.Key="DrawingLayer">
+    <DrawingGroup.ClipGeometry>
+      <RectangleGeometry Rect="0,0,68.4,55.8" />
+    </DrawingGroup.ClipGeometry>
+    <GeometryDrawing>
+      <GeometryDrawing.Pen>
+        <Pen Brush="#00FFFFFF" Thickness="1" />
+      </GeometryDrawing.Pen>
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry Rect="0,0,68.4,55.8" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <DrawingGroup x:Name="breadboard" Opacity="1" svg:SvgObject.Id="breadboard">
+      <DrawingGroup x:Name="icon" Opacity="1" svg:SvgObject.Id="icon">
+        <GeometryDrawing Brush="#FF0A0A0A">
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Figures="M6.3,21.6L6.3,14.4C6.3,10.424,9.524,7.2,13.5,7.2L13.5,7.2 17.1,7.2C19.088,7.2 20.7,5.588 20.7,3.6 20.7,3.6 20.7,3.6 20.7,3.6 20.7,1.612 22.312,1.77635683940025E-15 24.3,1.77635683940025E-15L44.1,1.77635683940025E-15C46.088,1.77635683940025E-15 47.7,1.612 47.7,3.6 47.7,3.6 47.7,3.6 47.7,3.6 47.7,5.588 49.312,7.2 51.3,7.2L54.9,7.2C58.876,7.2,62.1,10.424,62.1,14.4L62.1,21.6C65.579,21.6 68.4,24.42 68.4,27.9 68.4,31.38 65.58,34.2 62.1,34.2 62.1,34.2 62.1,34.2 62.1,34.2L62.1,41.4C62.1,45.376,58.876,48.6,54.9,48.6L51.3,48.6C49.312,48.6,47.7,50.212,47.7,52.2L47.7,52.2C47.7,54.188,46.088,55.8,44.1,55.8L44.1,55.8 24.3,55.8C22.312,55.8 20.7,54.188 20.7,52.2 20.7,50.212 19.088,48.6 17.1,48.6 17.1,48.6 17.1,48.6 17.1,48.6L13.5,48.6C9.524,48.6,6.3,45.376,6.3,41.4L6.3,34.2C2.821,34.2 -1.77635683940025E-15,31.38 -1.77635683940025E-15,27.9 -1.77635683940025E-15,24.42 2.82,21.6 6.3,21.6 6.3,21.6 6.3,21.6 6.3,21.6 M2.565,27.9C2.562,29.466 3.829,30.737 5.394,30.74 6.96,30.743 8.231,29.476 8.234,27.911 8.234,27.907 8.234,27.904 8.234,27.9 8.237,26.334 6.97,25.063 5.405,25.06 3.839,25.057 2.568,26.324 2.565,27.889 2.565,27.893 2.565,27.896 2.565,27.9z M60.165,27.9C60.162,29.466 61.429,30.737 62.995,30.739 64.561,30.742 65.832,29.475 65.834,27.909 65.834,27.906 65.834,27.903 65.834,27.9 65.837,26.334 64.571,25.063 63.005,25.06 61.439,25.057 60.168,26.323 60.165,27.889 60.165,27.892 60.165,27.896 60.165,27.9z M38.849,49.5C38.849,50.909 39.991,52.051 41.4,52.051 42.809,52.051 43.951,50.909 43.951,49.5 43.951,48.091 42.809,46.949 41.4,46.949 39.991,46.949 38.849,48.091 38.849,49.5L38.849,49.5z M32.76,49.5C32.76,50.295 33.405,50.94 34.2,50.94 34.995,50.94 35.64,50.295 35.64,49.5 35.64,48.705 34.995,48.06 34.2,48.06 33.405,48.06 32.76,48.705 32.76,49.5z M24.449,49.5C24.449,50.909 25.591,52.051 27,52.051 28.409,52.051 29.551,50.909 29.551,49.5 29.551,48.091 28.409,46.949 27,46.949 25.591,46.949 24.449,48.091 24.449,49.5L24.449,49.5z M38.849,6.3C38.849,7.709 39.991,8.851 41.4,8.851 42.809,8.851 43.951,7.709 43.951,6.3 43.951,4.891 42.809,3.749 41.4,3.749 39.991,3.749 38.849,4.891 38.849,6.3z M32.76,6.3C32.76,7.095 33.405,7.74 34.2,7.74 34.995,7.74 35.64,7.095 35.64,6.3 35.64,5.505 34.995,4.86 34.2,4.86 33.405,4.86 32.76,5.505 32.76,6.3z M24.449,6.3C24.449,7.709 25.591,8.851 27,8.851 28.409,8.851 29.551,7.709 29.551,6.3 29.551,4.891 28.409,3.749 27,3.749 25.591,3.749 24.449,4.891 24.449,6.3z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <DrawingGroup Opacity="1">
+          <DrawingGroup Opacity="1">
+            <DrawingGroup Opacity="1" Transform="1,0,0,1,43.2,55.5408">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup svg:SvgObject.Type="Text">
+                    <DrawingGroup>
+                      <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
+                        <GlyphRunDrawing.GlyphRun>
+                          <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="2.67264" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="+" GlyphIndices="14" AdvanceWidths="1.82588666666667" GlyphOffsets="0,0" Language="en-us">
+                            <GlyphRun.GlyphTypeface>
+                              <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
+                            </GlyphRun.GlyphTypeface>
+                          </GlyphRun>
+                        </GlyphRunDrawing.GlyphRun>
+                      </GlyphRunDrawing>
+                    </DrawingGroup>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+          <DrawingGroup Opacity="1">
+            <DrawingGroup Opacity="1" Transform="1,0,0,1,31.7846,55.5408">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup svg:SvgObject.Type="Text">
+                    <DrawingGroup>
+                      <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
+                        <GlyphRunDrawing.GlyphRun>
+                          <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="2.67264" BidiLevel="0" IsSideways="False" ClusterMap="0 1" Characters="in" GlyphIndices="76 81" AdvanceWidths="0.646946666666667 1.51310666666667" GlyphOffsets="0,0 0,0" Language="en-us">
+                            <GlyphRun.GlyphTypeface>
+                              <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
+                            </GlyphRun.GlyphTypeface>
+                          </GlyphRun>
+                        </GlyphRunDrawing.GlyphRun>
+                      </GlyphRunDrawing>
+                    </DrawingGroup>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+          <DrawingGroup Opacity="1">
+            <DrawingGroup Opacity="1" Transform="1,0,0,1,22.7846,55.5408">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup svg:SvgObject.Type="Text">
+                    <DrawingGroup>
+                      <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
+                        <GlyphRunDrawing.GlyphRun>
+                          <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="2.67264" BidiLevel="0" IsSideways="False" Characters="-" GlyphIndices="16" AdvanceWidths="1.06933333333333" Language="en-us">
+                            <GlyphRun.GlyphTypeface>
+                              <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
+                            </GlyphRun.GlyphTypeface>
+                          </GlyphRun>
+                        </GlyphRunDrawing.GlyphRun>
+                      </GlyphRunDrawing>
+                    </DrawingGroup>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+          <DrawingGroup Opacity="1">
+            <DrawingGroup Opacity="1" Transform="1,0,0,1,46.5408,3.6">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup Opacity="1">
+                    <DrawingGroup Opacity="1" Transform="-1.83690953073357E-16,-1,1,-1.83690953073357E-16,0,0">
+                      <DrawingGroup Opacity="1">
+                        <DrawingGroup Opacity="1">
+                          <DrawingGroup Opacity="1">
+                            <DrawingGroup Opacity="1" Transform="1,0,0,1,0.000390625,-2.651563E-05">
+                              <DrawingGroup Opacity="1">
+                                <DrawingGroup Opacity="1">
+                                  <DrawingGroup svg:SvgObject.Type="Text">
+                                    <DrawingGroup>
+                                      <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
+                                        <GlyphRunDrawing.GlyphRun>
+                                          <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="2.67264" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="+" GlyphIndices="14" AdvanceWidths="1.82588666666667" GlyphOffsets="0,0" Language="en-us">
+                                            <GlyphRun.GlyphTypeface>
+                                              <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
+                                            </GlyphRun.GlyphTypeface>
+                                          </GlyphRun>
+                                        </GlyphRunDrawing.GlyphRun>
+                                      </GlyphRunDrawing>
+                                    </DrawingGroup>
+                                  </DrawingGroup>
+                                </DrawingGroup>
+                              </DrawingGroup>
+                            </DrawingGroup>
+                          </DrawingGroup>
+                        </DrawingGroup>
+                      </DrawingGroup>
+                    </DrawingGroup>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+          <DrawingGroup Opacity="1">
+            <DrawingGroup Opacity="1" Transform="1,0,0,1,30.5769,3.6">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup svg:SvgObject.Type="Text">
+                    <DrawingGroup>
+                      <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
+                        <GlyphRunDrawing.GlyphRun>
+                          <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="2.67264" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2" Characters="out" GlyphIndices="82 88 87" AdvanceWidths="1.56657333333333 1.51310666666667 0.90626" GlyphOffsets="0,0 0,0 0,0" Language="en-us">
+                            <GlyphRun.GlyphTypeface>
+                              <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
+                            </GlyphRun.GlyphTypeface>
+                          </GlyphRun>
+                        </GlyphRunDrawing.GlyphRun>
+                      </GlyphRunDrawing>
+                    </DrawingGroup>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+          <DrawingGroup Opacity="1">
+            <DrawingGroup Opacity="1" Transform="1,0,0,1,22.3346,3.6">
+              <DrawingGroup Opacity="1">
+                <DrawingGroup Opacity="1">
+                  <DrawingGroup svg:SvgObject.Type="Text">
+                    <DrawingGroup>
+                      <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
+                        <GlyphRunDrawing.GlyphRun>
+                          <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="2.67264" BidiLevel="0" IsSideways="False" Characters="-" GlyphIndices="16" AdvanceWidths="1.06933333333333" Language="en-us">
+                            <GlyphRun.GlyphTypeface>
+                              <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
+                            </GlyphRun.GlyphTypeface>
+                          </GlyphRun>
+                        </GlyphRunDrawing.GlyphRun>
+                      </GlyphRunDrawing>
+                    </DrawingGroup>
+                  </DrawingGroup>
+                </DrawingGroup>
+              </DrawingGroup>
+            </DrawingGroup>
+          </DrawingGroup>
+        </DrawingGroup>
+        <GeometryDrawing x:Name="connector13pin" svg:SvgObject.Id="connector13pin">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FF9A916C" Thickness="1.2756" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="3.189" RadiusY="3.189" Center="41.4,49.5" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector14pin" svg:SvgObject.Id="connector14pin">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FF9A916C" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="1.8" RadiusY="1.8" Center="34.2,49.5" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector15pin" svg:SvgObject.Id="connector15pin">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FF9A916C" Thickness="1.2756" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="3.189" RadiusY="3.189" Center="27,49.5" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector16pin" svg:SvgObject.Id="connector16pin">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FF9A916C" Thickness="1.2756" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="3.189" RadiusY="3.189" Center="41.4,6.3" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector17pin" svg:SvgObject.Id="connector17pin">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FF9A916C" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="1.8" RadiusY="1.8" Center="34.2,6.3" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector18pin" svg:SvgObject.Id="connector18pin">
+          <GeometryDrawing.Pen>
+            <Pen Brush="#FF9A916C" Thickness="1.2756" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
+          </GeometryDrawing.Pen>
+          <GeometryDrawing.Geometry>
+            <EllipseGeometry RadiusX="3.189" RadiusY="3.189" Center="27,6.3" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
+    <GeometryDrawing Brush="#FF9A916C">
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="10.111,20.797,14.173,5.669" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF9A916C">
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="10.111,29.301,14.173,5.669" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF9A916C">
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="44.127,20.797,14.173,5.669" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF9A916C">
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="44.127,29.301,14.173,5.669" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF9A916C">
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="10.111,20.797,48.189,5.669" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <DrawingGroup Opacity="1" Transform="-1.83697E-16,1,-1,-1.83697E-16,58.1211,-10.29">
+      <DrawingGroup Opacity="1">
+        <DrawingGroup Opacity="1">
+          <GeometryDrawing Brush="#FFC8C8C8">
+            <GeometryDrawing.Geometry>
+              <RectangleGeometry RadiusX="0" RadiusY="0" Rect="32.788,0.955,2.835,45.921" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <GeometryDrawing Brush="#FF9A916C">
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="10.111,29.301,48.189,5.669" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <DrawingGroup Opacity="1" Transform="-1.83697E-16,1,-1,-1.83697E-16,66.0581,-2.353">
+      <DrawingGroup Opacity="1">
+        <DrawingGroup Opacity="1">
+          <GeometryDrawing Brush="#FFC8C8C8">
+            <GeometryDrawing.Geometry>
+              <RectangleGeometry RadiusX="0" RadiusY="0" Rect="32.788,8.892,2.835,45.921" />
+            </GeometryDrawing.Geometry>
+          </GeometryDrawing>
+        </DrawingGroup>
+      </DrawingGroup>
+    </DrawingGroup>
+    <GeometryDrawing Brush="#FFF0F0F0">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M44.127,22.399C42.194,18.91 38.477,16.545 34.206,16.545 29.934,16.545 26.218,18.909 24.285,22.399L24.285,33.369C26.218,36.858 29.935,39.223 34.206,39.223 38.478,39.223 42.194,36.859 44.127,33.369L44.127,22.399z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FFFAFAFA">
+      <GeometryDrawing.Geometry>
+        <PathGeometry FillRule="Nonzero" Figures="M43.418,27.884C43.418,23.275 40.03,19.468 35.611,18.79 35.614,18.75 35.623,18.712 35.623,18.672 35.623,17.889 34.988,17.255 34.206,17.255 33.423,17.255 32.789,17.89 32.789,18.672 32.789,18.713 32.798,18.751 32.801,18.79 28.382,19.468 24.994,23.275 24.994,27.884 24.994,32.493 28.382,36.3 32.801,36.978 32.798,37.018 32.789,37.056 32.789,37.096 32.789,37.879 33.424,38.513 34.206,38.513 34.989,38.513 35.623,37.878 35.623,37.096 35.623,37.055 35.614,37.017 35.611,36.978 40.03,36.3 43.418,32.493 43.418,27.884z" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FFC8C8C8">
+      <GeometryDrawing.Geometry>
+        <EllipseGeometry RadiusX="6.378" RadiusY="6.378" Center="34.205,27.884" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF00FF00">
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="34.772,24.341,2.835,2.835" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FFFF0000">
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="30.804,24.341,2.835,2.835" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FF0000FF">
+      <GeometryDrawing.Geometry>
+        <RectangleGeometry RadiusX="0" RadiusY="0" Rect="32.788,28.593,2.835,2.835" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+    <GeometryDrawing Brush="#FFFFFFFF">
+      <GeometryDrawing.Geometry>
+        <EllipseGeometry RadiusX="1.417" RadiusY="1.417" Center="34.205,21.506" />
+      </GeometryDrawing.Geometry>
+    </GeometryDrawing>
+  </DrawingGroup>
+</DrawingGroup>
