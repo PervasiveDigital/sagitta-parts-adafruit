@@ -18,7 +18,7 @@
     <DrawingGroup x:Name="layer5" Opacity="1" Transform="1,0,0,1,0,-54" svg:SvgObject.Id="layer5">
       <DrawingGroup x:Name="breadboard" Opacity="1" svg:SvgObject.Id="breadboard">
         <DrawingGroup x:Name="g3837" Opacity="1" Transform="1,0,0,1,-1.8,-602.35975" svg:SvgObject.Id="g3837">
-          <GeometryDrawing x:Name="path3821" svg:SvgObject.Id="path3821">
+          <GeometryDrawing x:Name="path3821" Brush="#00000000" svg:SvgObject.Id="path3821">
             <GeometryDrawing.Pen>
               <Pen Brush="#FFCB1717" Thickness="3.5999999" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Round" />
             </GeometryDrawing.Pen>
@@ -27,6 +27,9 @@
             </GeometryDrawing.Geometry>
           </GeometryDrawing>
           <GeometryDrawing x:Name="path3823" svg:SvgObject.Id="path3823">
+            <GeometryDrawing.Brush>
+              <SolidColorBrush Color="#00000000" Transform="1,0,0,1,0,602.35975" />
+            </GeometryDrawing.Brush>
             <GeometryDrawing.Pen>
               <Pen Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
                 <Pen.Brush>
@@ -55,7 +58,7 @@
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
         <DrawingGroup x:Name="g3833" Opacity="1" Transform="1,0,0,1,1.8,-602.35975" svg:SvgObject.Id="g3833">
-          <GeometryDrawing x:Name="path3815" svg:SvgObject.Id="path3815">
+          <GeometryDrawing x:Name="path3815" Brush="#00000000" svg:SvgObject.Id="path3815">
             <GeometryDrawing.Pen>
               <Pen Brush="#FF202020" Thickness="3.5999999" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Round" />
             </GeometryDrawing.Pen>
@@ -64,6 +67,9 @@
             </GeometryDrawing.Geometry>
           </GeometryDrawing>
           <GeometryDrawing x:Name="path3825" svg:SvgObject.Id="path3825">
+            <GeometryDrawing.Brush>
+              <SolidColorBrush Color="#00000000" Transform="1,0,0,1,0,602.35975" />
+            </GeometryDrawing.Brush>
             <GeometryDrawing.Pen>
               <Pen Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
                 <Pen.Brush>
@@ -107,7 +113,7 @@
             <DrawingGroup>
               <GlyphRunDrawing>
                 <GlyphRunDrawing.GlyphRun>
-                  <GlyphRun PixelsPerDip="2.5" BaselineOrigin="907.311833333333,-58.494286" FontRenderingEmSize="28" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5 6" Characters="1300mAh" GlyphIndices="20 22 19 19 80 36 75" AdvanceWidths="15.092 15.092 15.092 15.092 24.108 18.06 15.848" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                  <GlyphRun PixelsPerDip="1.5" BaselineOrigin="907.311833333333,-58.494286" FontRenderingEmSize="28" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5 6" Characters="1300mAh" GlyphIndices="20 22 19 19 80 36 75" AdvanceWidths="15.092 15.092 15.092 15.092 24.108 18.06 15.848" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
                     <GlyphRun.GlyphTypeface>
                       <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
                     </GlyphRun.GlyphTypeface>
@@ -152,6 +158,16 @@
           </GeometryDrawing.Brush>
           <GeometryDrawing.Geometry>
             <RectangleGeometry RadiusX="0.9" RadiusY="0.9" Rect="9,211.5,121.5,49.5" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector1pin" Brush="#00000000" svg:SvgObject.Id="connector1pin">
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="63.9,59.4,7.2,7.2" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector2pin" Brush="#00000000" svg:SvgObject.Id="connector2pin">
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="72.9,59.4,7.2,7.2" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
       </DrawingGroup>

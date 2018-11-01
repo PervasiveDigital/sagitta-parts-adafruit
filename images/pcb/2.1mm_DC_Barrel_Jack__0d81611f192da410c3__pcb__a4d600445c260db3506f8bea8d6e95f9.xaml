@@ -14,7 +14,7 @@
     <DrawingGroup x:Name="layer1" Opacity="1" Transform="1,0,0,1,0,-998.362" svg:SvgObject.Id="layer1" />
     <DrawingGroup x:Name="pcb" Opacity="1" svg:SvgObject.Id="pcb">
       <DrawingGroup x:Name="copper0" Opacity="1" svg:SvgObject.Id="copper0">
-        <GeometryDrawing x:Name="connector1pin" svg:SvgObject.Id="connector1pin">
+        <GeometryDrawing x:Name="connector1pin" Brush="#00000000" svg:SvgObject.Id="connector1pin">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF6CA34" Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
           </GeometryDrawing.Pen>
@@ -22,7 +22,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M65.25,27A2.25,2.25,0,0,1,60.75,27A2.25,2.25,0,1,1,65.25,27z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector2pin" svg:SvgObject.Id="connector2pin">
+        <GeometryDrawing x:Name="connector2pin" Brush="#00000000" svg:SvgObject.Id="connector2pin">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF6CA34" Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
           </GeometryDrawing.Pen>
@@ -30,7 +30,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M47.25,27A2.25,2.25,0,0,1,42.75,27A2.25,2.25,0,1,1,47.25,27z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector3pin" svg:SvgObject.Id="connector3pin">
+        <GeometryDrawing x:Name="connector3pin" Brush="#00000000" svg:SvgObject.Id="connector3pin">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF6CA34" Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
           </GeometryDrawing.Pen>
@@ -40,7 +40,7 @@
         </GeometryDrawing>
       </DrawingGroup>
       <DrawingGroup x:Name="copper1" Opacity="1" svg:SvgObject.Id="copper1">
-        <GeometryDrawing>
+        <GeometryDrawing Brush="#00000000">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF6CA34" Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
           </GeometryDrawing.Pen>
@@ -48,7 +48,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M65.25,27A2.25,2.25,0,0,1,60.75,27A2.25,2.25,0,1,1,65.25,27z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing>
+        <GeometryDrawing Brush="#00000000">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF6CA34" Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
           </GeometryDrawing.Pen>
@@ -56,7 +56,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M47.25,27A2.25,2.25,0,0,1,42.75,27A2.25,2.25,0,1,1,47.25,27z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing>
+        <GeometryDrawing Brush="#00000000">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF6CA34" Thickness="1.79999995" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
           </GeometryDrawing.Pen>
@@ -66,7 +66,7 @@
         </GeometryDrawing>
       </DrawingGroup>
       <DrawingGroup x:Name="silkscreen" Opacity="1" svg:SvgObject.Id="silkscreen">
-        <GeometryDrawing x:Name="rect9719" svg:SvgObject.Id="rect9719">
+        <GeometryDrawing x:Name="rect9719" Brush="#00000000" svg:SvgObject.Id="rect9719">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFFFFFFF" Thickness="0.89999998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Round" />
           </GeometryDrawing.Pen>

@@ -13,7 +13,7 @@
     </GeometryDrawing>
     <DrawingGroup x:Name="text10512" Opacity="1" Transform="1,0,0,1,4.5036986E-06,-4.3232422E-05" svg:SvgObject.Id="text10512" />
     <DrawingGroup x:Name="schematic" Opacity="1" svg:SvgObject.Id="schematic">
-      <GeometryDrawing x:Name="path10461" svg:SvgObject.Id="path10461">
+      <GeometryDrawing x:Name="path10461" Brush="#00000000" svg:SvgObject.Id="path10461">
         <GeometryDrawing.Pen>
           <Pen Brush="#FF000000" Thickness="3" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -21,7 +21,15 @@
           <PathGeometry FillRule="Nonzero" Figures="M26.574803,53.149609L26.574803,26.574806" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path10453" svg:SvgObject.Id="path10453">
+      <GeometryDrawing x:Name="connector1pin" svg:SvgObject.Id="connector1pin">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#00000000" Transform="0,1,-1,0,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="23.0315,-30.1181,7.0866,7.0866" Transform="0,1,-1,0,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path10453" Brush="#00000000" svg:SvgObject.Id="path10453">
         <GeometryDrawing.Pen>
           <Pen Brush="#FF000000" Thickness="3" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -29,12 +37,20 @@
           <PathGeometry FillRule="Nonzero" Figures="M26.5748,132.87402L26.5748,106.29921" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
+      <GeometryDrawing x:Name="connector2pin" svg:SvgObject.Id="connector2pin">
+        <GeometryDrawing.Brush>
+          <SolidColorBrush Color="#00000000" Transform="0,-1,1,0,0,0" />
+        </GeometryDrawing.Brush>
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-136.4173,23.0315,7.0866,7.0866" Transform="0,-1,1,0,0,0" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
       <DrawingGroup x:Name="tspan4621" Opacity="1" svg:SvgObject.Id="tspan4621">
         <DrawingGroup x:Name="tspan88499" svg:SvgObject.Id="tspan88499" svg:SvgObject.Type="Text">
           <DrawingGroup>
             <GlyphRunDrawing ForegroundBrush="#FF000000">
               <GlyphRunDrawing.GlyphRun>
-                <GlyphRun PixelsPerDip="2.5" BaselineOrigin="53.149605,85.039375" FontRenderingEmSize="14" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3" Characters="4xAA" GlyphIndices="23 91 36 36" AdvanceWidths="7.546 6.426 9.03 9.03" GlyphOffsets="0,0 0,0 0,0 0,0" Language="en-us">
+                <GlyphRun PixelsPerDip="1.5" BaselineOrigin="53.149605,85.039375" FontRenderingEmSize="14" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3" Characters="4xAA" GlyphIndices="23 91 36 36" AdvanceWidths="7.546 6.426 9.03 9.03" GlyphOffsets="0,0 0,0 0,0 0,0" Language="en-us">
                   <GlyphRun.GlyphTypeface>
                     <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
                   </GlyphRun.GlyphTypeface>

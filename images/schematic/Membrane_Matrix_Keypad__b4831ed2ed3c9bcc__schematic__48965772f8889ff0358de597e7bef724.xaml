@@ -16,6 +16,9 @@
     <DrawingGroup x:Name="layer12" Opacity="1" Transform="1,0,0,1,0,-186.02362" svg:SvgObject.Id="layer12">
       <DrawingGroup x:Name="schematic" Opacity="1" svg:SvgObject.Id="schematic">
         <GeometryDrawing x:Name="rect10403" svg:SvgObject.Id="rect10403">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="0,-1,1,0,0,0" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="2.19577503" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
               <Pen.Brush>
@@ -27,7 +30,7 @@
             <RectangleGeometry RadiusX="0" RadiusY="0" Rect="-372.0472,53.1496,159.4488,132.874" Transform="0,-1,1,0,0,0" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path10449" svg:SvgObject.Id="path10449">
+        <GeometryDrawing x:Name="path10449" Brush="#00000000" svg:SvgObject.Id="path10449">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="3" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -35,7 +38,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M26.574805,292.32278L53.149615,292.32278" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path10453" svg:SvgObject.Id="path10453">
+        <GeometryDrawing x:Name="path10453" Brush="#00000000" svg:SvgObject.Id="path10453">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="3" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -43,7 +46,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M26.574805,265.74797L53.149615,265.74797" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path10461" svg:SvgObject.Id="path10461">
+        <GeometryDrawing x:Name="path10461" Brush="#00000000" svg:SvgObject.Id="path10461">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="3" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -51,7 +54,22 @@
             <PathGeometry FillRule="Nonzero" Figures="M53.149615,239.17316L26.574812,239.17316" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5285" svg:SvgObject.Id="path5285">
+        <GeometryDrawing x:Name="connector1pin" Brush="#00000000" svg:SvgObject.Id="connector1pin">
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="23.0315,235.6299,7.0866,7.0866" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector2pin" Brush="#00000000" svg:SvgObject.Id="connector2pin">
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="23.0315,262.2047,7.0866,7.0866" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector3pin" Brush="#00000000" svg:SvgObject.Id="connector3pin">
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="23.0315,288.7795,7.0866,7.0866" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path5285" Brush="#00000000" svg:SvgObject.Id="path5285">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="3" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -59,7 +77,12 @@
             <PathGeometry FillRule="Nonzero" Figures="M26.574805,318.8991L53.149615,318.8991" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5291" svg:SvgObject.Id="path5291">
+        <GeometryDrawing x:Name="connector4pin" Brush="#00000000" svg:SvgObject.Id="connector4pin">
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="23.0315,315.3559,7.0866,7.0866" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="path5291" Brush="#00000000" svg:SvgObject.Id="path5291">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="3.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -67,7 +90,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M106.29921,372.04723L106.29921,398.62204" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5293" svg:SvgObject.Id="path5293">
+        <GeometryDrawing x:Name="path5293" Brush="#00000000" svg:SvgObject.Id="path5293">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="3.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -75,7 +98,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M132.87402,372.04723L132.87402,398.62204" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5295" svg:SvgObject.Id="path5295">
+        <GeometryDrawing x:Name="path5295" Brush="#00000000" svg:SvgObject.Id="path5295">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="3.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -83,7 +106,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M159.44882,372.04723L159.44882,398.62204" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5927" svg:SvgObject.Id="path5927">
+        <GeometryDrawing x:Name="path5927" Brush="#00000000" svg:SvgObject.Id="path5927">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.57948291" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -91,7 +114,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M72.637795,239.17322L159.44882,239.17322" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5929" svg:SvgObject.Id="path5929">
+        <GeometryDrawing x:Name="path5929" Brush="#00000000" svg:SvgObject.Id="path5929">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.57948291" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -99,7 +122,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M72.637795,265.74802L159.44882,265.74802" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5931" svg:SvgObject.Id="path5931">
+        <GeometryDrawing x:Name="path5931" Brush="#00000000" svg:SvgObject.Id="path5931">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.57948291" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -107,7 +130,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M72.637795,292.32282L159.44882,292.32282" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5933" svg:SvgObject.Id="path5933">
+        <GeometryDrawing x:Name="path5933" Brush="#00000000" svg:SvgObject.Id="path5933">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.57948291" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -115,7 +138,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M72.637795,318.89763L159.44882,318.89763" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5935" svg:SvgObject.Id="path5935">
+        <GeometryDrawing x:Name="path5935" Brush="#00000000" svg:SvgObject.Id="path5935">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.58925563" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -123,7 +146,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M159.44882,239.17322L159.44882,352.55904" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5937" svg:SvgObject.Id="path5937">
+        <GeometryDrawing x:Name="path5937" Brush="#00000000" svg:SvgObject.Id="path5937">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.58925563" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -131,12 +154,27 @@
             <PathGeometry FillRule="Nonzero" Figures="M132.87402,239.17322L132.87402,352.55904" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5939" svg:SvgObject.Id="path5939">
+        <GeometryDrawing x:Name="path5939" Brush="#00000000" svg:SvgObject.Id="path5939">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.58925563" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
           <GeometryDrawing.Geometry>
             <PathGeometry FillRule="Nonzero" Figures="M106.29921,239.17322L106.29921,352.55904" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector5pin" Brush="#00000000" svg:SvgObject.Id="connector5pin">
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="102.7559,395.0787,7.0866,7.0866" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector6pin" Brush="#00000000" svg:SvgObject.Id="connector6pin">
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="129.3307,395.0787,7.0866,7.0866" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector7pin" Brush="#00000000" svg:SvgObject.Id="connector7pin">
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="155.9055,395.0787,7.0866,7.0866" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
         <GeometryDrawing x:Name="path5817" Brush="#FFFFFFFF" svg:SvgObject.Id="path5817">
@@ -317,7 +355,7 @@
             <DrawingGroup>
               <GlyphRunDrawing ForegroundBrush="#FF000000">
                 <GlyphRunDrawing.GlyphRun>
-                  <GlyphRun PixelsPerDip="2.5" BaselineOrigin="64.2440686666667,242.71652" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="1" GlyphIndices="20" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
+                  <GlyphRun PixelsPerDip="1.5" BaselineOrigin="64.2440686666667,242.71652" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="1" GlyphIndices="20" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
                     <GlyphRun.GlyphTypeface>
                       <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
                     </GlyphRun.GlyphTypeface>
@@ -332,7 +370,7 @@
             <DrawingGroup>
               <GlyphRunDrawing ForegroundBrush="#FF000000">
                 <GlyphRunDrawing.GlyphRun>
-                  <GlyphRun PixelsPerDip="2.5" BaselineOrigin="64.2440686666667,269.29132" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="2" GlyphIndices="21" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
+                  <GlyphRun PixelsPerDip="1.5" BaselineOrigin="64.2440686666667,269.29132" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="2" GlyphIndices="21" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
                     <GlyphRun.GlyphTypeface>
                       <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
                     </GlyphRun.GlyphTypeface>
@@ -347,7 +385,7 @@
             <DrawingGroup>
               <GlyphRunDrawing ForegroundBrush="#FF000000">
                 <GlyphRunDrawing.GlyphRun>
-                  <GlyphRun PixelsPerDip="2.5" BaselineOrigin="64.2440686666667,295.86612" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="3" GlyphIndices="22" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
+                  <GlyphRun PixelsPerDip="1.5" BaselineOrigin="64.2440686666667,295.86612" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="3" GlyphIndices="22" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
                     <GlyphRun.GlyphTypeface>
                       <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
                     </GlyphRun.GlyphTypeface>
@@ -362,7 +400,7 @@
             <DrawingGroup>
               <GlyphRunDrawing ForegroundBrush="#FF000000">
                 <GlyphRunDrawing.GlyphRun>
-                  <GlyphRun PixelsPerDip="2.5" BaselineOrigin="64.2440686666667,322.44092" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="4" GlyphIndices="23" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
+                  <GlyphRun PixelsPerDip="1.5" BaselineOrigin="64.2440686666667,322.44092" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="4" GlyphIndices="23" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
                     <GlyphRun.GlyphTypeface>
                       <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
                     </GlyphRun.GlyphTypeface>
@@ -377,7 +415,7 @@
             <DrawingGroup>
               <GlyphRunDrawing ForegroundBrush="#FF000000">
                 <GlyphRunDrawing.GlyphRun>
-                  <GlyphRun PixelsPerDip="2.5" BaselineOrigin="103.065876666667,363.18896" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="5" GlyphIndices="24" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
+                  <GlyphRun PixelsPerDip="1.5" BaselineOrigin="103.065876666667,363.18896" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="5" GlyphIndices="24" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
                     <GlyphRun.GlyphTypeface>
                       <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
                     </GlyphRun.GlyphTypeface>
@@ -392,7 +430,7 @@
             <DrawingGroup>
               <GlyphRunDrawing ForegroundBrush="#FF000000">
                 <GlyphRunDrawing.GlyphRun>
-                  <GlyphRun PixelsPerDip="2.5" BaselineOrigin="129.639346666667,363.18896" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="6" GlyphIndices="25" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
+                  <GlyphRun PixelsPerDip="1.5" BaselineOrigin="129.639346666667,363.18896" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="6" GlyphIndices="25" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
                     <GlyphRun.GlyphTypeface>
                       <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
                     </GlyphRun.GlyphTypeface>
@@ -407,7 +445,7 @@
             <DrawingGroup>
               <GlyphRunDrawing ForegroundBrush="#FF000000">
                 <GlyphRunDrawing.GlyphRun>
-                  <GlyphRun PixelsPerDip="2.5" BaselineOrigin="156.214146666667,363.18896" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="7" GlyphIndices="26" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
+                  <GlyphRun PixelsPerDip="1.5" BaselineOrigin="156.214146666667,363.18896" FontRenderingEmSize="12" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="7" GlyphIndices="26" AdvanceWidths="6.468" GlyphOffsets="0,0" Language="en-us">
                     <GlyphRun.GlyphTypeface>
                       <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
                     </GlyphRun.GlyphTypeface>
@@ -417,7 +455,7 @@
             </DrawingGroup>
           </DrawingGroup>
         </DrawingGroup>
-        <GeometryDrawing x:Name="path5969" svg:SvgObject.Id="path5969">
+        <GeometryDrawing x:Name="path5969" Brush="#00000000" svg:SvgObject.Id="path5969">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -425,7 +463,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M63.779528,239.17322L53.149606,239.17322" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5971" svg:SvgObject.Id="path5971">
+        <GeometryDrawing x:Name="path5971" Brush="#00000000" svg:SvgObject.Id="path5971">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -433,7 +471,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M62.007874,265.74802L53.149606,265.74802" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5973" svg:SvgObject.Id="path5973">
+        <GeometryDrawing x:Name="path5973" Brush="#00000000" svg:SvgObject.Id="path5973">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -441,7 +479,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M62.007874,292.32282L53.149606,292.32282" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5977" svg:SvgObject.Id="path5977">
+        <GeometryDrawing x:Name="path5977" Brush="#00000000" svg:SvgObject.Id="path5977">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -449,7 +487,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M62.007874,318.89763L53.149606,318.89763" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5981" svg:SvgObject.Id="path5981">
+        <GeometryDrawing x:Name="path5981" Brush="#00000000" svg:SvgObject.Id="path5981">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -457,7 +495,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M106.29921,372.04723L106.29921,364.96062" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5983" svg:SvgObject.Id="path5983">
+        <GeometryDrawing x:Name="path5983" Brush="#00000000" svg:SvgObject.Id="path5983">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -465,7 +503,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M132.87402,372.04723L132.87402,364.96062" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path5985" svg:SvgObject.Id="path5985">
+        <GeometryDrawing x:Name="path5985" Brush="#00000000" svg:SvgObject.Id="path5985">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF000000" Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -478,7 +516,7 @@
             <DrawingGroup>
               <GlyphRunDrawing ForegroundBrush="#FF000000">
                 <GlyphRunDrawing.GlyphRun>
-                  <GlyphRun PixelsPerDip="2.5" BaselineOrigin="72.7982633333333,208.82216" FontRenderingEmSize="18" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5 6 7 8 9" Characters="3x4 KEYPAD" GlyphIndices="22 91 23 3 46 40 60 51 36 39" AdvanceWidths="9.702 8.262 9.702 4.932 10.44 9.108 9.954 8.856 11.61 12.618" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
+                  <GlyphRun PixelsPerDip="1.5" BaselineOrigin="72.7982633333333,208.82216" FontRenderingEmSize="18" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3 4 5 6 7 8 9" Characters="3x4 KEYPAD" GlyphIndices="22 91 23 3 46 40 60 51 36 39" AdvanceWidths="9.702 8.262 9.702 4.932 10.44 9.108 9.954 8.856 11.61 12.618" GlyphOffsets="0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0" Language="en-us">
                     <GlyphRun.GlyphTypeface>
                       <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
                     </GlyphRun.GlyphTypeface>

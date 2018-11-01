@@ -12,7 +12,7 @@
       </GeometryDrawing.Geometry>
     </GeometryDrawing>
     <DrawingGroup x:Name="silkscreen" Opacity="1" svg:SvgObject.Id="silkscreen">
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -22,7 +22,7 @@
       </GeometryDrawing>
       <DrawingGroup Opacity="1">
         <DrawingGroup Opacity="1">
-          <GeometryDrawing>
+          <GeometryDrawing Brush="#00000000">
             <GeometryDrawing.Pen>
               <Pen Brush="#FFFFFFFF" Thickness="0.288" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
             </GeometryDrawing.Pen>
@@ -30,7 +30,7 @@
               <PathGeometry FillRule="Nonzero" Figures="M11.4009,9.24379A2.107,2.107,0,0,0,14.5191,9.24379" />
             </GeometryDrawing.Geometry>
           </GeometryDrawing>
-          <GeometryDrawing>
+          <GeometryDrawing Brush="#00000000">
             <GeometryDrawing.Pen>
               <Pen Brush="#FFFFFFFF" Thickness="0.288" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
             </GeometryDrawing.Pen>
@@ -50,7 +50,7 @@
           </GeometryDrawing>
         </DrawingGroup>
       </DrawingGroup>
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -58,7 +58,7 @@
           <LineGeometry StartPoint="8.7846,0.288" EndPoint="17.1354,0.288" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -66,7 +66,7 @@
           <LineGeometry StartPoint="8.7846,0.6211" EndPoint="8.7846,0.288" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>

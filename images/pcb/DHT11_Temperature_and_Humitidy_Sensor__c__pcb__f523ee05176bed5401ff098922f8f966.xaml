@@ -14,6 +14,9 @@
     <DrawingGroup x:Name="pcb" Opacity="1" svg:SvgObject.Id="pcb">
       <DrawingGroup x:Name="copper0" Opacity="1" svg:SvgObject.Id="copper0">
         <GeometryDrawing x:Name="connector4pad" svg:SvgObject.Id="connector4pad">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,8.5710298,7.207345" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
               <Pen.Brush>
@@ -26,6 +29,9 @@
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
         <GeometryDrawing x:Name="connector3pad" svg:SvgObject.Id="connector3pad">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,8.5710298,7.207345" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
               <Pen.Brush>
@@ -38,6 +44,9 @@
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
         <GeometryDrawing x:Name="connector2pad" svg:SvgObject.Id="connector2pad">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,8.5710298,7.207345" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
               <Pen.Brush>
@@ -50,6 +59,9 @@
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
         <GeometryDrawing x:Name="connector1pad" svg:SvgObject.Id="connector1pad">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,8.5710298,7.207345" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
               <Pen.Brush>
@@ -64,6 +76,9 @@
       </DrawingGroup>
       <DrawingGroup x:Name="copper1" Opacity="1" svg:SvgObject.Id="copper1">
         <GeometryDrawing>
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,8.5710298,7.207345" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
               <Pen.Brush>
@@ -76,6 +91,9 @@
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
         <GeometryDrawing>
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,8.5710298,7.207345" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
               <Pen.Brush>
@@ -88,6 +106,9 @@
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
         <GeometryDrawing>
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,8.5710298,7.207345" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
               <Pen.Brush>
@@ -100,6 +121,9 @@
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
         <GeometryDrawing>
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,8.5710298,7.207345" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="1" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
               <Pen.Brush>
@@ -113,7 +137,7 @@
         </GeometryDrawing>
       </DrawingGroup>
       <DrawingGroup x:Name="silkscreen" Opacity="1" svg:SvgObject.Id="silkscreen">
-        <GeometryDrawing x:Name="rect3484" svg:SvgObject.Id="rect3484">
+        <GeometryDrawing x:Name="rect3484" Brush="#00000000" svg:SvgObject.Id="rect3484">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFFFFFFF" Thickness="0.72000098" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -128,7 +152,7 @@
                 <DrawingGroup>
                   <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
                     <GlyphRunDrawing.GlyphRun>
-                      <GlyphRun PixelsPerDip="2.5" BaselineOrigin="19.1333383333333,-4.3200059" FontRenderingEmSize="6.40000868" BidiLevel="0" IsSideways="False" Characters="DHT11" GlyphIndices="39 43 55 20 20" AdvanceWidths="3.86560524272 3.86560524272 3.86560524272 3.86560524272 3.86560524272" Language="en-us">
+                      <GlyphRun PixelsPerDip="1.5" BaselineOrigin="19.1333383333333,-4.3200059" FontRenderingEmSize="6.40000868" BidiLevel="0" IsSideways="False" Characters="DHT11" GlyphIndices="39 43 55 20 20" AdvanceWidths="3.86560524272 3.86560524272 3.86560524272 3.86560524272 3.86560524272" Language="en-us">
                         <GlyphRun.GlyphTypeface>
                           <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/ocraext.ttf}" StyleSimulations="None" />
                         </GlyphRun.GlyphTypeface>
@@ -140,6 +164,9 @@
             </DrawingGroup>
           </DrawingGroup>
           <GeometryDrawing x:Name="path5703" svg:SvgObject.Id="path5703">
+            <GeometryDrawing.Brush>
+              <SolidColorBrush Color="#00000000" Transform="0.80000111,0,0,0.80000111,0,-3.45E-05" />
+            </GeometryDrawing.Brush>
             <GeometryDrawing.Pen>
               <Pen Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter">
                 <Pen.Brush>
@@ -152,6 +179,9 @@
             </GeometryDrawing.Geometry>
           </GeometryDrawing>
           <GeometryDrawing x:Name="path5705" svg:SvgObject.Id="path5705">
+            <GeometryDrawing.Brush>
+              <SolidColorBrush Color="#00000000" Transform="0.80000111,0,0,0.80000111,0,-3.45E-05" />
+            </GeometryDrawing.Brush>
             <GeometryDrawing.Pen>
               <Pen Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter">
                 <Pen.Brush>
@@ -164,6 +194,9 @@
             </GeometryDrawing.Geometry>
           </GeometryDrawing>
           <GeometryDrawing x:Name="path5707" svg:SvgObject.Id="path5707">
+            <GeometryDrawing.Brush>
+              <SolidColorBrush Color="#00000000" Transform="0.80000111,0,0,0.80000111,0,-3.45E-05" />
+            </GeometryDrawing.Brush>
             <GeometryDrawing.Pen>
               <Pen Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter">
                 <Pen.Brush>
@@ -176,6 +209,9 @@
             </GeometryDrawing.Geometry>
           </GeometryDrawing>
           <GeometryDrawing x:Name="path5709" svg:SvgObject.Id="path5709">
+            <GeometryDrawing.Brush>
+              <SolidColorBrush Color="#00000000" Transform="0.80000111,0,0,0.80000111,0,-3.45E-05" />
+            </GeometryDrawing.Brush>
             <GeometryDrawing.Pen>
               <Pen Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter">
                 <Pen.Brush>
@@ -188,6 +224,9 @@
             </GeometryDrawing.Geometry>
           </GeometryDrawing>
           <GeometryDrawing x:Name="path5711" svg:SvgObject.Id="path5711">
+            <GeometryDrawing.Brush>
+              <SolidColorBrush Color="#00000000" Transform="0.80000111,0,0,0.80000111,0,-3.45E-05" />
+            </GeometryDrawing.Brush>
             <GeometryDrawing.Pen>
               <Pen Thickness="0.44999999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter">
                 <Pen.Brush>

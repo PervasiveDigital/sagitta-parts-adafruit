@@ -12,7 +12,7 @@
       </GeometryDrawing.Geometry>
     </GeometryDrawing>
     <DrawingGroup x:Name="silkscreen" Opacity="1" svg:SvgObject.Id="silkscreen">
-      <GeometryDrawing x:Name="path16459" svg:SvgObject.Id="path16459">
+      <GeometryDrawing x:Name="path16459" Brush="#00000000" svg:SvgObject.Id="path16459">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.57599998" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -198,7 +198,7 @@
               <LineGeometry StartPoint="40.1669,36.0369" EndPoint="42.1512,36.0369" />
             </GeometryDrawing.Geometry>
           </GeometryDrawing>
-          <GeometryDrawing x:Name="circle16573" svg:SvgObject.Id="circle16573">
+          <GeometryDrawing x:Name="circle16573" Brush="#00000000" svg:SvgObject.Id="circle16573">
             <GeometryDrawing.Pen>
               <Pen Brush="#FFFFFFFF" Thickness="1.15199995" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
             </GeometryDrawing.Pen>
@@ -271,7 +271,7 @@
     </DrawingGroup>
     <DrawingGroup x:Name="copper1" Opacity="1" svg:SvgObject.Id="copper1">
       <DrawingGroup x:Name="copper0" Opacity="1" svg:SvgObject.Id="copper0">
-        <GeometryDrawing x:Name="connector61pad" svg:SvgObject.Id="connector61pad">
+        <GeometryDrawing x:Name="connector61pad" Brush="#00000000" svg:SvgObject.Id="connector61pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.44000006" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -279,7 +279,7 @@
             <EllipseGeometry RadiusX="4.2633" RadiusY="4.2633" Center="7.2,57.6" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector85pad" svg:SvgObject.Id="connector85pad">
+        <GeometryDrawing x:Name="connector85pad" Brush="#00000000" svg:SvgObject.Id="connector85pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.67867994" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -287,7 +287,7 @@
             <EllipseGeometry RadiusX="2.2567" RadiusY="2.2567" Center="76.68,36.3189" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector17pad" svg:SvgObject.Id="connector17pad">
+        <GeometryDrawing x:Name="connector17pad" Brush="#00000000" svg:SvgObject.Id="connector17pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.44000006" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -295,7 +295,7 @@
             <EllipseGeometry RadiusX="3.9798" RadiusY="3.9798" Center="76.68,50.1236" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector18pad" svg:SvgObject.Id="connector18pad">
+        <GeometryDrawing x:Name="connector18pad" Brush="#00000000" svg:SvgObject.Id="connector18pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.44000006" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -303,7 +303,7 @@
             <EllipseGeometry RadiusX="3.9798" RadiusY="3.9798" Center="76.68,12.8764" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector23pad" svg:SvgObject.Id="connector23pad">
+        <GeometryDrawing x:Name="connector23pad" Brush="#00000000" svg:SvgObject.Id="connector23pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.08000004" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -311,7 +311,7 @@
             <EllipseGeometry RadiusX="1.98" RadiusY="1.98" Center="19.44,4.68" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector24pad" svg:SvgObject.Id="connector24pad">
+        <GeometryDrawing x:Name="connector24pad" Brush="#00000000" svg:SvgObject.Id="connector24pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.08000004" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -319,7 +319,7 @@
             <EllipseGeometry RadiusX="1.98" RadiusY="1.98" Center="26.64,4.68" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector25pad" svg:SvgObject.Id="connector25pad">
+        <GeometryDrawing x:Name="connector25pad" Brush="#00000000" svg:SvgObject.Id="connector25pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.08000004" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -327,7 +327,7 @@
             <EllipseGeometry RadiusX="1.98" RadiusY="1.98" Center="33.84,4.68" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector26pad" svg:SvgObject.Id="connector26pad">
+        <GeometryDrawing x:Name="connector26pad" Brush="#00000000" svg:SvgObject.Id="connector26pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.08000004" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -335,7 +335,7 @@
             <EllipseGeometry RadiusX="1.98" RadiusY="1.98" Center="41.04,4.68" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector27pad" svg:SvgObject.Id="connector27pad">
+        <GeometryDrawing x:Name="connector27pad" Brush="#00000000" svg:SvgObject.Id="connector27pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.08000004" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -343,7 +343,7 @@
             <EllipseGeometry RadiusX="1.98" RadiusY="1.98" Center="48.24,4.68" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector28pad" svg:SvgObject.Id="connector28pad">
+        <GeometryDrawing x:Name="connector28pad" Brush="#00000000" svg:SvgObject.Id="connector28pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.08000004" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -351,7 +351,7 @@
             <EllipseGeometry RadiusX="1.98" RadiusY="1.98" Center="55.44,4.68" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector60pad" svg:SvgObject.Id="connector60pad">
+        <GeometryDrawing x:Name="connector60pad" Brush="#00000000" svg:SvgObject.Id="connector60pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.44000006" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -359,7 +359,7 @@
             <EllipseGeometry RadiusX="4.2633" RadiusY="4.2633" Center="7.92,7.2" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector84pad" svg:SvgObject.Id="connector84pad">
+        <GeometryDrawing x:Name="connector84pad" Brush="#00000000" svg:SvgObject.Id="connector84pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.67867994" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>

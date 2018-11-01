@@ -13,7 +13,7 @@
     </GeometryDrawing>
     <DrawingGroup x:Name="layer1" Opacity="1" Transform="1,0,0,1,0,-892.91326" svg:SvgObject.Id="layer1">
       <DrawingGroup x:Name="schematic" Opacity="1" svg:SvgObject.Id="schematic">
-        <GeometryDrawing x:Name="path215160" svg:SvgObject.Id="path215160">
+        <GeometryDrawing x:Name="path215160" Brush="#00000000" svg:SvgObject.Id="path215160">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF262626" Thickness="2.18149328" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -21,7 +21,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M26.574803,1025.7873L26.574803,999.21245" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="path215162" svg:SvgObject.Id="path215162">
+        <GeometryDrawing x:Name="path215162" Brush="#00000000" svg:SvgObject.Id="path215162">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF262626" Thickness="2.18149328" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -30,6 +30,9 @@
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
         <GeometryDrawing x:Name="path215184" svg:SvgObject.Id="path215184">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,0,866.33844" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="2.18267727" StartLineCap="Round" EndLineCap="Round" LineJoin="Round">
               <Pen.Brush>
@@ -42,6 +45,9 @@
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
         <GeometryDrawing x:Name="path215698" svg:SvgObject.Id="path215698">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,0,866.33844" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="2.18149328" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter">
               <Pen.Brush>
@@ -54,6 +60,9 @@
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
         <GeometryDrawing x:Name="path215704" svg:SvgObject.Id="path215704">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,0,866.33844" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="2.18149328" StartLineCap="Square" EndLineCap="Square" LineJoin="Round">
               <Pen.Brush>
@@ -63,6 +72,30 @@
           </GeometryDrawing.Pen>
           <GeometryDrawing.Geometry>
             <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,866.33844" Figures="M40.748031,109.84252L37.204724,106.29921 40.748031,102.7559" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector1pin" svg:SvgObject.Id="connector1pin">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,0,866.33844" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="23.0315,155.9055,7.0866,7.0866" Transform="1,0,0,1,0,866.33844" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector2pin" svg:SvgObject.Id="connector2pin">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,0,866.33844" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="49.6063,102.7559,7.0866,7.0866" Transform="1,0,0,1,0,866.33844" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector3pin" svg:SvgObject.Id="connector3pin">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,0,866.33844" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="23.0315,49.6063,7.0866,7.0866" Transform="1,0,0,1,0,866.33844" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
       </DrawingGroup>

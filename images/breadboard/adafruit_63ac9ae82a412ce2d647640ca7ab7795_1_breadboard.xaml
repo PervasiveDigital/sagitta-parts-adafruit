@@ -141,7 +141,7 @@
         <DrawingGroup Opacity="1">
           <DrawingGroup Opacity="1">
             <DrawingGroup Opacity="1">
-              <GeometryDrawing>
+              <GeometryDrawing Brush="#00000000">
                 <GeometryDrawing.Pen>
                   <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" MiterLimit="1" />
                 </GeometryDrawing.Pen>
@@ -153,7 +153,7 @@
           </DrawingGroup>
           <DrawingGroup Opacity="1">
             <DrawingGroup Opacity="1">
-              <GeometryDrawing>
+              <GeometryDrawing Brush="#00000000">
                 <GeometryDrawing.Pen>
                   <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
                 </GeometryDrawing.Pen>
@@ -165,7 +165,7 @@
           </DrawingGroup>
           <DrawingGroup Opacity="1">
             <DrawingGroup Opacity="1">
-              <GeometryDrawing>
+              <GeometryDrawing Brush="#00000000">
                 <GeometryDrawing.Pen>
                   <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
                 </GeometryDrawing.Pen>
@@ -702,7 +702,7 @@
             <RectangleGeometry RadiusX="0" RadiusY="0" Rect="10.494,3.197,3.402,3.685" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector63pin" svg:SvgObject.Id="connector63pin">
+        <GeometryDrawing x:Name="connector63pin" Brush="#00000000" svg:SvgObject.Id="connector63pin">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF9A916C" Thickness="1.44" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -710,7 +710,7 @@
             <EllipseGeometry RadiusX="3.838" RadiusY="3.838" Center="38.475,5.76" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector64pin" svg:SvgObject.Id="connector64pin">
+        <GeometryDrawing x:Name="connector64pin" Brush="#00000000" svg:SvgObject.Id="connector64pin">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF9A916C" Thickness="1.44" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>

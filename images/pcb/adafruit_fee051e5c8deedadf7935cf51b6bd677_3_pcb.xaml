@@ -12,7 +12,7 @@
       </GeometryDrawing.Geometry>
     </GeometryDrawing>
     <DrawingGroup x:Name="silkscreen" Opacity="1" svg:SvgObject.Id="silkscreen">
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -20,7 +20,7 @@
           <PathGeometry FillRule="Nonzero" Figures="M195.633,36.8681L202.813,44.0407 202.813,136.567 195.633,143.739 195.633,148.088A2.54665,2.54665,0,0,1,192.807,150.912L11.7912,150.912A2.54665,2.54665,0,0,1,8.96458,148.088L8.96458,3.11185A2.54665,2.54665,0,0,1,11.7912,0.288L191.326,0.288 195.633,4.59154 195.633,36.8681 M19.4519,93.6677A1.12932,1.12932,0,1,0,21.71055,93.6677A1.12932,1.12932,0,1,0,19.4519,93.6677z M19.4519,102.172A1.12932,1.12932,0,1,0,21.71055,102.172A1.12932,1.12932,0,1,0,19.4519,102.172z M12.1935,129.168A1.97972,1.97972,0,1,0,16.15293,129.168A1.97972,1.97972,0,1,0,12.1935,129.168z M24.666,129.168A2.26318,2.26318,0,1,0,29.19236,129.168A2.26318,2.26318,0,1,0,24.666,129.168z M20.2371,37.6724A0.704126,0.704126,0,1,0,21.64536,37.6724A0.704126,0.704126,0,1,0,20.2371,37.6724z M20.2371,48.7276A0.704126,0.704126,0,1,0,21.64536,48.7276A0.704126,0.704126,0,1,0,20.2371,48.7276z M191.654,50.4A4.24743,4.24743,0,1,0,200.14885,50.4A4.24743,4.24743,0,1,0,191.654,50.4z M191.654,129.6A4.24743,4.24743,0,1,0,200.14885,129.6A4.24743,4.24743,0,1,0,191.654,129.6z M47.6538,7.2A4.24743,4.24743,0,1,0,56.14865,7.2A4.24743,4.24743,0,1,0,47.6538,7.2z M44.0538,144A4.24743,4.24743,0,1,0,52.54865,144A4.24743,4.24743,0,1,0,44.0538,144z" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.864" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -234,7 +234,7 @@
               <LineGeometry StartPoint="17.3469,14.5616" EndPoint="17.3469,7.7584" />
             </GeometryDrawing.Geometry>
           </GeometryDrawing>
-          <GeometryDrawing>
+          <GeometryDrawing Brush="#00000000">
             <GeometryDrawing.Pen>
               <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
             </GeometryDrawing.Pen>
@@ -242,7 +242,7 @@
               <EllipseGeometry RadiusX="4.2613" RadiusY="4.2613" Center="26.7012,11.16" />
             </GeometryDrawing.Geometry>
           </GeometryDrawing>
-          <GeometryDrawing>
+          <GeometryDrawing Brush="#00000000">
             <GeometryDrawing.Pen>
               <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
             </GeometryDrawing.Pen>
@@ -298,7 +298,7 @@
       </DrawingGroup>
       <DrawingGroup Opacity="1">
         <DrawingGroup Opacity="1">
-          <GeometryDrawing>
+          <GeometryDrawing Brush="#00000000">
             <GeometryDrawing.Pen>
               <Pen Brush="#FFFFFFFF" Thickness="0.36" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
             </GeometryDrawing.Pen>
@@ -314,7 +314,7 @@
               <LineGeometry StartPoint="0,119.246" EndPoint="0,139.09" />
             </GeometryDrawing.Geometry>
           </GeometryDrawing>
-          <GeometryDrawing>
+          <GeometryDrawing Brush="#00000000">
             <GeometryDrawing.Pen>
               <Pen Brush="#FFFFFFFF" Thickness="0.36" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
             </GeometryDrawing.Pen>
@@ -482,7 +482,7 @@
               <LineGeometry StartPoint="174.709,72.6314" EndPoint="174.709,71.2086" />
             </GeometryDrawing.Geometry>
           </GeometryDrawing>
-          <GeometryDrawing>
+          <GeometryDrawing Brush="#00000000">
             <GeometryDrawing.Pen>
               <Pen Brush="#FFFFFFFF" Thickness="0.432" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
             </GeometryDrawing.Pen>
@@ -492,7 +492,7 @@
           </GeometryDrawing>
         </DrawingGroup>
       </DrawingGroup>
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -500,7 +500,7 @@
           <LineGeometry StartPoint="0.288,145.44" EndPoint="8.7012,145.44" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -508,7 +508,7 @@
           <LineGeometry StartPoint="0.288,116.412" EndPoint="8.7012,116.412" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -516,7 +516,7 @@
           <LineGeometry StartPoint="0.288,145.44" EndPoint="0.288,116.412" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -524,7 +524,7 @@
           <LineGeometry StartPoint="7.0515,57.515" EndPoint="8.7012,57.515" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -532,7 +532,7 @@
           <LineGeometry StartPoint="7.0515,28.885" EndPoint="8.7012,28.885" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.576" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -543,7 +543,7 @@
     </DrawingGroup>
     <DrawingGroup x:Name="copper1" Opacity="1" svg:SvgObject.Id="copper1">
       <DrawingGroup x:Name="copper0" Opacity="1" svg:SvgObject.Id="copper0">
-        <GeometryDrawing x:Name="connector1pad" svg:SvgObject.Id="connector1pad">
+        <GeometryDrawing x:Name="connector1pad" Brush="#00000000" svg:SvgObject.Id="connector1pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -556,7 +556,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M158.124,139.912L161.67865,139.912 161.67865,148.08767 158.124,148.08767 158.124,139.912 M158.124,144A1.77732,1.77732,0,1,0,161.67865,144A1.77732,1.77732,0,1,0,158.124,144z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector2pad" svg:SvgObject.Id="connector2pad">
+        <GeometryDrawing x:Name="connector2pad" Brush="#00000000" svg:SvgObject.Id="connector2pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -569,7 +569,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M165.324,139.912L168.87865,139.912 168.87865,148.08767 165.324,148.08767 165.324,139.912 M165.324,144A1.77732,1.77732,0,1,0,168.87865,144A1.77732,1.77732,0,1,0,165.324,144z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector3pad" svg:SvgObject.Id="connector3pad">
+        <GeometryDrawing x:Name="connector3pad" Brush="#00000000" svg:SvgObject.Id="connector3pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -582,7 +582,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M172.524,139.912L176.07865,139.912 176.07865,148.08767 172.524,148.08767 172.524,139.912 M172.524,144A1.77732,1.77732,0,1,0,176.07865,144A1.77732,1.77732,0,1,0,172.524,144z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector4pad" svg:SvgObject.Id="connector4pad">
+        <GeometryDrawing x:Name="connector4pad" Brush="#00000000" svg:SvgObject.Id="connector4pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -595,7 +595,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M179.724,139.912L183.27865,139.912 183.27865,148.08767 179.724,148.08767 179.724,139.912 M179.724,144A1.77732,1.77732,0,1,0,183.27865,144A1.77732,1.77732,0,1,0,179.724,144z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector5pad" svg:SvgObject.Id="connector5pad">
+        <GeometryDrawing x:Name="connector5pad" Brush="#00000000" svg:SvgObject.Id="connector5pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -608,7 +608,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M186.924,139.912L190.47865,139.912 190.47865,148.08767 186.924,148.08767 186.924,139.912 M186.924,144A1.77732,1.77732,0,1,0,190.47865,144A1.77732,1.77732,0,1,0,186.924,144z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector45pad" svg:SvgObject.Id="connector45pad">
+        <GeometryDrawing x:Name="connector45pad" Brush="#00000000" svg:SvgObject.Id="connector45pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.10268" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -616,7 +616,7 @@
             <EllipseGeometry RadiusX="1.9687" RadiusY="1.9687" Center="188.701,64.8" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector46pad" svg:SvgObject.Id="connector46pad">
+        <GeometryDrawing x:Name="connector46pad" Brush="#00000000" svg:SvgObject.Id="connector46pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.10268" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -624,7 +624,7 @@
             <EllipseGeometry RadiusX="1.9687" RadiusY="1.9687" Center="195.901,64.8" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector47pad" svg:SvgObject.Id="connector47pad">
+        <GeometryDrawing x:Name="connector47pad" Brush="#00000000" svg:SvgObject.Id="connector47pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.10268" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -632,7 +632,7 @@
             <EllipseGeometry RadiusX="1.9687" RadiusY="1.9687" Center="188.701,72" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector48pad" svg:SvgObject.Id="connector48pad">
+        <GeometryDrawing x:Name="connector48pad" Brush="#00000000" svg:SvgObject.Id="connector48pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.10268" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -640,7 +640,7 @@
             <EllipseGeometry RadiusX="1.9687" RadiusY="1.9687" Center="195.901,72" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector49pad" svg:SvgObject.Id="connector49pad">
+        <GeometryDrawing x:Name="connector49pad" Brush="#00000000" svg:SvgObject.Id="connector49pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.10268" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -648,7 +648,7 @@
             <EllipseGeometry RadiusX="1.9687" RadiusY="1.9687" Center="188.701,79.2" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector50pad" svg:SvgObject.Id="connector50pad">
+        <GeometryDrawing x:Name="connector50pad" Brush="#00000000" svg:SvgObject.Id="connector50pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="1.10268" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -656,7 +656,7 @@
             <EllipseGeometry RadiusX="1.9687" RadiusY="1.9687" Center="195.901,79.2" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector51pad" svg:SvgObject.Id="connector51pad">
+        <GeometryDrawing x:Name="connector51pad" Brush="#00000000" svg:SvgObject.Id="connector51pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -669,7 +669,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M60.2039,3.11216L63.75855,3.11216 63.75855,11.28783 60.2039,11.28783 60.2039,3.11216 M60.2039,7.2A1.77732,1.77732,0,1,0,63.75855,7.2A1.77732,1.77732,0,1,0,60.2039,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector52pad" svg:SvgObject.Id="connector52pad">
+        <GeometryDrawing x:Name="connector52pad" Brush="#00000000" svg:SvgObject.Id="connector52pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -682,7 +682,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M67.4039,3.11216L70.95855,3.11216 70.95855,11.28783 67.4039,11.28783 67.4039,3.11216 M67.4039,7.2A1.77732,1.77732,0,1,0,70.95855,7.2A1.77732,1.77732,0,1,0,67.4039,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector53pad" svg:SvgObject.Id="connector53pad">
+        <GeometryDrawing x:Name="connector53pad" Brush="#00000000" svg:SvgObject.Id="connector53pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -695,7 +695,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M74.6042,3.11216L78.15885,3.11216 78.15885,11.28783 74.6042,11.28783 74.6042,3.11216 M74.6042,7.2A1.77732,1.77732,0,1,0,78.15885,7.2A1.77732,1.77732,0,1,0,74.6042,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector54pad" svg:SvgObject.Id="connector54pad">
+        <GeometryDrawing x:Name="connector54pad" Brush="#00000000" svg:SvgObject.Id="connector54pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -708,7 +708,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M81.8042,3.11216L85.35885,3.11216 85.35885,11.28783 81.8042,11.28783 81.8042,3.11216 M81.8042,7.2A1.77732,1.77732,0,1,0,85.35885,7.2A1.77732,1.77732,0,1,0,81.8042,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector55pad" svg:SvgObject.Id="connector55pad">
+        <GeometryDrawing x:Name="connector55pad" Brush="#00000000" svg:SvgObject.Id="connector55pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -721,7 +721,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M89.0042,3.11216L92.55885,3.11216 92.55885,11.28783 89.0042,11.28783 89.0042,3.11216 M89.0042,7.2A1.77732,1.77732,0,1,0,92.55885,7.2A1.77732,1.77732,0,1,0,89.0042,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector56pad" svg:SvgObject.Id="connector56pad">
+        <GeometryDrawing x:Name="connector56pad" Brush="#00000000" svg:SvgObject.Id="connector56pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -734,7 +734,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M96.2042,3.11216L99.75885,3.11216 99.75885,11.28783 96.2042,11.28783 96.2042,3.11216 M96.2042,7.2A1.77732,1.77732,0,1,0,99.75885,7.2A1.77732,1.77732,0,1,0,96.2042,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector57pad" svg:SvgObject.Id="connector57pad">
+        <GeometryDrawing x:Name="connector57pad" Brush="#00000000" svg:SvgObject.Id="connector57pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -747,7 +747,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M103.404,3.11216L106.95865,3.11216 106.95865,11.28783 103.404,11.28783 103.404,3.11216 M103.404,7.2A1.77732,1.77732,0,1,0,106.95865,7.2A1.77732,1.77732,0,1,0,103.404,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector58pad" svg:SvgObject.Id="connector58pad">
+        <GeometryDrawing x:Name="connector58pad" Brush="#00000000" svg:SvgObject.Id="connector58pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -760,7 +760,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M110.604,3.11216L114.15865,3.11216 114.15865,11.28783 110.604,11.28783 110.604,3.11216 M110.604,7.2A1.77732,1.77732,0,1,0,114.15865,7.2A1.77732,1.77732,0,1,0,110.604,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector59pad" svg:SvgObject.Id="connector59pad">
+        <GeometryDrawing x:Name="connector59pad" Brush="#00000000" svg:SvgObject.Id="connector59pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -773,7 +773,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M117.804,3.11216L121.35865,3.11216 121.35865,11.28783 117.804,11.28783 117.804,3.11216 M117.804,7.2A1.77732,1.77732,0,1,0,121.35865,7.2A1.77732,1.77732,0,1,0,117.804,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector60pad" svg:SvgObject.Id="connector60pad">
+        <GeometryDrawing x:Name="connector60pad" Brush="#00000000" svg:SvgObject.Id="connector60pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -786,7 +786,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M125.004,3.11216L128.55865,3.11216 128.55865,11.28783 125.004,11.28783 125.004,3.11216 M125.004,7.2A1.77732,1.77732,0,1,0,128.55865,7.2A1.77732,1.77732,0,1,0,125.004,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector61pad" svg:SvgObject.Id="connector61pad">
+        <GeometryDrawing x:Name="connector61pad" Brush="#00000000" svg:SvgObject.Id="connector61pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -799,7 +799,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M136.524,3.11216L140.07865,3.11216 140.07865,11.28783 136.524,11.28783 136.524,3.11216 M136.524,7.2A1.77732,1.77732,0,1,0,140.07865,7.2A1.77732,1.77732,0,1,0,136.524,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector62pad" svg:SvgObject.Id="connector62pad">
+        <GeometryDrawing x:Name="connector62pad" Brush="#00000000" svg:SvgObject.Id="connector62pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -812,7 +812,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M143.724,3.11216L147.27865,3.11216 147.27865,11.28783 143.724,11.28783 143.724,3.11216 M143.724,7.2A1.77732,1.77732,0,1,0,147.27865,7.2A1.77732,1.77732,0,1,0,143.724,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector63pad" svg:SvgObject.Id="connector63pad">
+        <GeometryDrawing x:Name="connector63pad" Brush="#00000000" svg:SvgObject.Id="connector63pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -825,7 +825,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M150.924,3.11216L154.47865,3.11216 154.47865,11.28783 150.924,11.28783 150.924,3.11216 M150.924,7.2A1.77732,1.77732,0,1,0,154.47865,7.2A1.77732,1.77732,0,1,0,150.924,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector64pad" svg:SvgObject.Id="connector64pad">
+        <GeometryDrawing x:Name="connector64pad" Brush="#00000000" svg:SvgObject.Id="connector64pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -838,7 +838,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M158.124,3.11216L161.67865,3.11216 161.67865,11.28783 158.124,11.28783 158.124,3.11216 M158.124,7.2A1.77732,1.77732,0,1,0,161.67865,7.2A1.77732,1.77732,0,1,0,158.124,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector65pad" svg:SvgObject.Id="connector65pad">
+        <GeometryDrawing x:Name="connector65pad" Brush="#00000000" svg:SvgObject.Id="connector65pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -851,7 +851,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M165.324,3.11216L168.87865,3.11216 168.87865,11.28783 165.324,11.28783 165.324,3.11216 M165.324,7.2A1.77732,1.77732,0,1,0,168.87865,7.2A1.77732,1.77732,0,1,0,165.324,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector66pad" svg:SvgObject.Id="connector66pad">
+        <GeometryDrawing x:Name="connector66pad" Brush="#00000000" svg:SvgObject.Id="connector66pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -864,7 +864,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M172.524,3.11216L176.07865,3.11216 176.07865,11.28783 172.524,11.28783 172.524,3.11216 M172.524,7.2A1.77732,1.77732,0,1,0,176.07865,7.2A1.77732,1.77732,0,1,0,172.524,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector67pad" svg:SvgObject.Id="connector67pad">
+        <GeometryDrawing x:Name="connector67pad" Brush="#00000000" svg:SvgObject.Id="connector67pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -877,7 +877,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M179.724,3.11216L183.27865,3.11216 183.27865,11.28783 179.724,11.28783 179.724,3.11216 M179.724,7.2A1.77732,1.77732,0,1,0,183.27865,7.2A1.77732,1.77732,0,1,0,179.724,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector68pad" svg:SvgObject.Id="connector68pad">
+        <GeometryDrawing x:Name="connector68pad" Brush="#00000000" svg:SvgObject.Id="connector68pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -890,7 +890,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M186.924,3.11216L190.47865,3.11216 190.47865,11.28783 186.924,11.28783 186.924,3.11216 M186.924,7.2A1.77732,1.77732,0,1,0,190.47865,7.2A1.77732,1.77732,0,1,0,186.924,7.2z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector85pad" svg:SvgObject.Id="connector85pad">
+        <GeometryDrawing x:Name="connector85pad" Brush="#00000000" svg:SvgObject.Id="connector85pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -903,7 +903,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M93.3242,139.912L96.87885,139.912 96.87885,148.08767 93.3242,148.08767 93.3242,139.912 M93.3242,144A1.77732,1.77732,0,1,0,96.87885,144A1.77732,1.77732,0,1,0,93.3242,144z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector86pad" svg:SvgObject.Id="connector86pad">
+        <GeometryDrawing x:Name="connector86pad" Brush="#00000000" svg:SvgObject.Id="connector86pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -916,7 +916,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M100.524,139.912L104.07865,139.912 104.07865,148.08767 100.524,148.08767 100.524,139.912 M100.524,144A1.77732,1.77732,0,1,0,104.07865,144A1.77732,1.77732,0,1,0,100.524,144z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector87pad" svg:SvgObject.Id="connector87pad">
+        <GeometryDrawing x:Name="connector87pad" Brush="#00000000" svg:SvgObject.Id="connector87pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -929,7 +929,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M107.724,139.912L111.27865,139.912 111.27865,148.08767 107.724,148.08767 107.724,139.912 M107.724,144A1.77732,1.77732,0,1,0,111.27865,144A1.77732,1.77732,0,1,0,107.724,144z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector88pad" svg:SvgObject.Id="connector88pad">
+        <GeometryDrawing x:Name="connector88pad" Brush="#00000000" svg:SvgObject.Id="connector88pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -942,7 +942,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M114.924,139.912L118.47865,139.912 118.47865,148.08767 114.924,148.08767 114.924,139.912 M114.924,144A1.77732,1.77732,0,1,0,118.47865,144A1.77732,1.77732,0,1,0,114.924,144z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector89pad" svg:SvgObject.Id="connector89pad">
+        <GeometryDrawing x:Name="connector89pad" Brush="#00000000" svg:SvgObject.Id="connector89pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -955,7 +955,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M122.124,139.912L125.67865,139.912 125.67865,148.08767 122.124,148.08767 122.124,139.912 M122.124,144A1.77732,1.77732,0,1,0,125.67865,144A1.77732,1.77732,0,1,0,122.124,144z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector90pad" svg:SvgObject.Id="connector90pad">
+        <GeometryDrawing x:Name="connector90pad" Brush="#00000000" svg:SvgObject.Id="connector90pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -968,7 +968,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M129.324,139.912L132.87865,139.912 132.87865,148.08767 129.324,148.08767 129.324,139.912 M129.324,144A1.77732,1.77732,0,1,0,132.87865,144A1.77732,1.77732,0,1,0,129.324,144z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector91pad" svg:SvgObject.Id="connector91pad">
+        <GeometryDrawing x:Name="connector91pad" Brush="#00000000" svg:SvgObject.Id="connector91pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -981,7 +981,7 @@
             <PathGeometry FillRule="Nonzero" Figures="M136.524,139.912L140.07865,139.912 140.07865,148.08767 136.524,148.08767 136.524,139.912 M136.524,144A1.77732,1.77732,0,1,0,140.07865,144A1.77732,1.77732,0,1,0,136.524,144z" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector0pad" svg:SvgObject.Id="connector0pad">
+        <GeometryDrawing x:Name="connector0pad" Brush="#00000000" svg:SvgObject.Id="connector0pad">
           <GeometryDrawing.Pen>
             <Pen Brush="#FFF7BD13" Thickness="0.72" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
           </GeometryDrawing.Pen>

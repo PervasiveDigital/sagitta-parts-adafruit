@@ -15,7 +15,7 @@
     <DrawingGroup x:Name="layer14" Opacity="1" Transform="1,0,0,1,0,-804.86218" svg:SvgObject.Id="layer14" />
     <DrawingGroup x:Name="layer15" Opacity="1" Transform="1,0,0,1,0,-804.86218" svg:SvgObject.Id="layer15" />
     <DrawingGroup x:Name="breadboard" Opacity="1" svg:SvgObject.Id="breadboard">
-      <GeometryDrawing x:Name="path239280" svg:SvgObject.Id="path239280">
+      <GeometryDrawing x:Name="path239280" Brush="#00000000" svg:SvgObject.Id="path239280">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFEED145" Thickness="4.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -23,7 +23,7 @@
           <PathGeometry FillRule="Nonzero" Figures="M76.5,238.50002L76.5,175.50005 76.5,126.00005" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path239282" svg:SvgObject.Id="path239282">
+      <GeometryDrawing x:Name="path239282" Brush="#00000000" svg:SvgObject.Id="path239282">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFE38E28" Thickness="4.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Round" />
         </GeometryDrawing.Pen>
@@ -31,7 +31,7 @@
           <PathGeometry FillRule="Nonzero" Figures="M67.5,238.50002L67.5,229.50002 72,225.00002 72,216.00002 72,175.50005 72,126.00005" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path239284" svg:SvgObject.Id="path239284">
+      <GeometryDrawing x:Name="path239284" Brush="#00000000" svg:SvgObject.Id="path239284">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFD41F9D" Thickness="4.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Round" />
         </GeometryDrawing.Pen>
@@ -39,7 +39,7 @@
           <PathGeometry FillRule="Nonzero" Figures="M85.5,238.50002L85.5,229.50002 81,225.00002 81,216.00002 81,175.50005 81,126.00005" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path239286" svg:SvgObject.Id="path239286">
+      <GeometryDrawing x:Name="path239286" Brush="#00000000" svg:SvgObject.Id="path239286">
         <GeometryDrawing.Pen>
           <Pen Brush="#FF2F7DEB" Thickness="4.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Round" />
         </GeometryDrawing.Pen>
@@ -47,7 +47,7 @@
           <PathGeometry FillRule="Nonzero" Figures="M94.5,238.50002L94.5,229.50002 85.5,220.50002 85.5,216.00002 85.5,175.50005 85.5,126.00005" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path239288" svg:SvgObject.Id="path239288">
+      <GeometryDrawing x:Name="path239288" Brush="#00000000" svg:SvgObject.Id="path239288">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFE12323" Thickness="4.5" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Round" />
         </GeometryDrawing.Pen>
@@ -80,6 +80,31 @@
           <RectangleGeometry RadiusX="0" RadiusY="0" Rect="93.6,238.5,1.8,4.5" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
+      <GeometryDrawing x:Name="connector1pin" Brush="#00000000" svg:SvgObject.Id="connector1pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="57.15,241.65,2.7,2.7" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector2pin" Brush="#00000000" svg:SvgObject.Id="connector2pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="66.15,241.65,2.7,2.7" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector3pin" Brush="#00000000" svg:SvgObject.Id="connector3pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="75.15,241.65,2.7,2.7" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector4pin" Brush="#00000000" svg:SvgObject.Id="connector4pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="84.15,241.65,2.7,2.7" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector5pin" Brush="#00000000" svg:SvgObject.Id="connector5pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="93.15,241.65,2.7,2.7" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
       <DrawingGroup x:Name="g239243" Opacity="1" Transform="1,0,0,1,-67.5,-831.86212" svg:SvgObject.Id="g239243">
         <DrawingGroup x:Name="g239227" Opacity="1" svg:SvgObject.Id="g239227">
           <GeometryDrawing x:Name="path239219" Brush="#FF54B0E0" svg:SvgObject.Id="path239219">
@@ -102,7 +127,7 @@
           <PathGeometry FillRule="EvenOdd" Figures="M76.5,4.51287C49.73527,4.51287,27.52554,23.96251,23.25,49.51287L13.5,49.51287C8.529437,49.51287 4.5,53.54231 4.5,58.51287 4.5,63.48343 8.529437,67.51287 13.5,67.51287L23.25,67.51287C25.961645,83.66059,35.83783,97.35979,49.5,105.26287L49.5,121.51287 103.5,121.51287 103.5,105.26287C117.16217,97.35979,127.03835,83.66059,129.75,67.51287L139.5,67.51287C144.47056,67.51287 148.5,63.48343 148.5,58.51287 148.5,53.54231 144.47056,49.51287 139.5,49.51287L129.75,49.51287C125.47446,23.96251,103.26473,4.51286999999999,76.5,4.51286999999999z M13.5,54.01287C15.985281,54.01287 18,56.02759 18,58.51287 18,60.99815 15.985281,63.01287 13.5,63.01287 11.014719,63.01287 9,60.99815 9,58.51287 9,56.02759 11.014719,54.01287 13.5,54.01287z M139.5,54.01287C141.98528,54.01287 144,56.02759 144,58.51287 144,60.99815 141.98528,63.01287 139.5,63.01287 137.01472,63.01287 135,60.99815 135,58.51287 135,56.02759 137.01472,54.01287 139.5,54.01287z" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path239126" svg:SvgObject.Id="path239126">
+      <GeometryDrawing x:Name="path239126" Brush="#00000000" svg:SvgObject.Id="path239126">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFB6B6B6" Thickness="1.79999995" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -110,7 +135,7 @@
           <PathGeometry FillRule="Nonzero" Figures="M130.5,58.50006A54,54,0,0,1,22.5,58.50006A54,54,0,1,1,130.5,58.50006z" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path239128" svg:SvgObject.Id="path239128">
+      <GeometryDrawing x:Name="path239128" Brush="#00000000" svg:SvgObject.Id="path239128">
         <GeometryDrawing.Pen>
           <Pen Brush="#FF9C9C9C" Thickness="1.79999995" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -118,7 +143,7 @@
           <PathGeometry FillRule="Nonzero" Figures="M95.38755,7.91093A54,54,0,0,1,129.6792,49.12068" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path239130" svg:SvgObject.Id="path239130">
+      <GeometryDrawing x:Name="path239130" Brush="#00000000" svg:SvgObject.Id="path239130">
         <GeometryDrawing.Pen>
           <Pen Brush="#FF9C9C9C" Thickness="1.79999995" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -126,7 +151,7 @@
           <PathGeometry FillRule="Nonzero" Figures="M23.221361,49.7031A54,54,0,0,1,57.93491,7.79171" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path239132" svg:SvgObject.Id="path239132">
+      <GeometryDrawing x:Name="path239132" Brush="#00000000" svg:SvgObject.Id="path239132">
         <GeometryDrawing.Pen>
           <Pen Brush="#FF9C9C9C" Thickness="1.79999995" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -134,7 +159,7 @@
           <PathGeometry FillRule="Nonzero" Figures="M40.7174,98.94269A54,54,0,0,1,23.427509,68.46554" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path239134" svg:SvgObject.Id="path239134">
+      <GeometryDrawing x:Name="path239134" Brush="#00000000" svg:SvgObject.Id="path239134">
         <GeometryDrawing.Pen>
           <Pen Brush="#FF9C9C9C" Thickness="1.79999995" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -169,6 +194,9 @@
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
         <GeometryDrawing x:Name="path239166" svg:SvgObject.Id="path239166">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1.8126156,-0.84523654,0.84523654,1.8126156,-906.61191,-590.66742" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="0.22499999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter">
               <Pen.Brush>
@@ -181,6 +209,9 @@
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
         <GeometryDrawing x:Name="path239168" svg:SvgObject.Id="path239168">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1.8126156,-0.84523654,0.84523654,1.8126156,-906.61191,-590.66742" />
+          </GeometryDrawing.Brush>
           <GeometryDrawing.Pen>
             <Pen Thickness="0.22499999" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter">
               <Pen.Brush>

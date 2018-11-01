@@ -196,6 +196,30 @@
             <PathGeometry FillRule="EvenOdd" Figures="M52.875,420.75A2.25,2.25,0,0,1,52.875,425.25" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
+        <GeometryDrawing x:Name="connector1pin" svg:SvgObject.Id="connector1pin">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,0,396" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="51.75,24.75,4.5,4.5" Transform="1,0,0,1,0,396" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector3pin" svg:SvgObject.Id="connector3pin">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,0,396" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="42.75,42.75,4.5,4.5" Transform="1,0,0,1,0,396" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector2pin" svg:SvgObject.Id="connector2pin">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,0,396" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="33.75,24.75,4.5,4.5" Transform="1,0,0,1,0,396" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
       </DrawingGroup>
     </DrawingGroup>
     <DrawingGroup x:Name="layer12" Opacity="1" Transform="1,0,0,1,0,-396" svg:SvgObject.Id="layer12" />

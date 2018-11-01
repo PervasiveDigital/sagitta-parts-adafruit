@@ -67,7 +67,7 @@
             </GeometryDrawing>
           </DrawingGroup>
           <DrawingGroup x:Name="g3013" Opacity="1" svg:SvgObject.Id="g3013">
-            <GeometryDrawing x:Name="_144824728" svg:SvgObject.Id="_144824728" svg:SvgObject.Class="fil3 str1">
+            <GeometryDrawing x:Name="_144824728" Brush="#00000000" svg:SvgObject.Id="_144824728" svg:SvgObject.Class="fil3 str1">
               <GeometryDrawing.Pen>
                 <Pen Brush="#FF8C8C8C" Thickness="0.76200002" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
               </GeometryDrawing.Pen>
@@ -75,7 +75,7 @@
                 <LineGeometry StartPoint="7.5868,18.9344" EndPoint="7.5894,22.1885" />
               </GeometryDrawing.Geometry>
             </GeometryDrawing>
-            <GeometryDrawing x:Name="_144822016" svg:SvgObject.Id="_144822016" svg:SvgObject.Class="fil3 str1">
+            <GeometryDrawing x:Name="_144822016" Brush="#00000000" svg:SvgObject.Id="_144822016" svg:SvgObject.Class="fil3 str1">
               <GeometryDrawing.Pen>
                 <Pen Brush="#FF8C8C8C" Thickness="0.76200002" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
               </GeometryDrawing.Pen>
@@ -83,7 +83,7 @@
                 <LineGeometry StartPoint="10.1268,18.9322" EndPoint="10.1294,22.1863" />
               </GeometryDrawing.Geometry>
             </GeometryDrawing>
-            <GeometryDrawing x:Name="_144829456" svg:SvgObject.Id="_144829456" svg:SvgObject.Class="fil3 str1">
+            <GeometryDrawing x:Name="_144829456" Brush="#00000000" svg:SvgObject.Id="_144829456" svg:SvgObject.Class="fil3 str1">
               <GeometryDrawing.Pen>
                 <Pen Brush="#FF8C8C8C" Thickness="0.76200002" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
               </GeometryDrawing.Pen>
@@ -91,7 +91,7 @@
                 <LineGeometry StartPoint="2.5068,18.9322" EndPoint="2.5094,22.1863" />
               </GeometryDrawing.Geometry>
             </GeometryDrawing>
-            <GeometryDrawing x:Name="_144819832" svg:SvgObject.Id="_144819832" svg:SvgObject.Class="fil3 str1">
+            <GeometryDrawing x:Name="_144819832" Brush="#00000000" svg:SvgObject.Id="_144819832" svg:SvgObject.Class="fil3 str1">
               <GeometryDrawing.Pen>
                 <Pen Brush="#FF8C8C8C" Thickness="0.76200002" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
               </GeometryDrawing.Pen>
@@ -505,7 +505,7 @@
                 </GeometryDrawing>
               </DrawingGroup>
               <DrawingGroup x:Name="g3145" Opacity="1" svg:SvgObject.Id="g3145">
-                <GeometryDrawing x:Name="_144828880" svg:SvgObject.Id="_144828880">
+                <GeometryDrawing x:Name="_144828880" Brush="#00000000" svg:SvgObject.Id="_144828880">
                   <GeometryDrawing.Pen>
                     <Pen Brush="#FF78786E" Thickness="0.25" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
                   </GeometryDrawing.Pen>
@@ -513,7 +513,7 @@
                     <PathGeometry FillRule="EvenOdd" Figures="M4.1431,5.2274C5.0827,5.2274,5.0827,5.2274,5.0827,5.2274" />
                   </GeometryDrawing.Geometry>
                 </GeometryDrawing>
-                <GeometryDrawing x:Name="_144823480" svg:SvgObject.Id="_144823480">
+                <GeometryDrawing x:Name="_144823480" Brush="#00000000" svg:SvgObject.Id="_144823480">
                   <GeometryDrawing.Pen>
                     <Pen Brush="#FF78786E" Thickness="0.0762" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
                   </GeometryDrawing.Pen>
@@ -561,6 +561,26 @@
           </DrawingGroup>
         </DrawingGroup>
       </DrawingGroup>
+      <GeometryDrawing x:Name="connector1" Brush="#00000000" svg:SvgObject.Id="connector1">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="1.7852,20.7303,1.4111,1.4111" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector2" Brush="#00000000" svg:SvgObject.Id="connector2">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="4.375,20.7303,1.4111,1.4111" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector3" Brush="#00000000" svg:SvgObject.Id="connector3">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="6.832,20.7967,1.4111,1.4111" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector4" Brush="#00000000" svg:SvgObject.Id="connector4">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="9.4218,20.7303,1.4111,1.4111" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
     </DrawingGroup>
   </DrawingGroup>
 </DrawingGroup>

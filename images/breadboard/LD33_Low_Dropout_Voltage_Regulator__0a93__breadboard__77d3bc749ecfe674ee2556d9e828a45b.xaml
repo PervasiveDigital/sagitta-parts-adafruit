@@ -13,7 +13,22 @@
     </GeometryDrawing>
     <DrawingGroup x:Name="layer6" Opacity="1" svg:SvgObject.Id="layer6">
       <DrawingGroup x:Name="breadboard" Opacity="1" svg:SvgObject.Id="breadboard">
-        <GeometryDrawing x:Name="connector1leg" svg:SvgObject.Id="connector1leg">
+        <GeometryDrawing x:Name="connector1pin" Brush="#00000000" svg:SvgObject.Id="connector1pin">
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="7.501,60,3,1" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector2pin" Brush="#00000000" svg:SvgObject.Id="connector2pin">
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="17.499,60,3,1" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector3pin" Brush="#00000000" svg:SvgObject.Id="connector3pin">
+          <GeometryDrawing.Geometry>
+            <RectangleGeometry RadiusX="0" RadiusY="0" Rect="27.497,60,3,1" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing x:Name="connector1leg" Brush="#00000000" svg:SvgObject.Id="connector1leg">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF8C8C8C" Thickness="3" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -21,7 +36,7 @@
             <LineGeometry StartPoint="9.001,62.317" EndPoint="9.001,72.317" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector2leg" svg:SvgObject.Id="connector2leg">
+        <GeometryDrawing x:Name="connector2leg" Brush="#00000000" svg:SvgObject.Id="connector2leg">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF8C8C8C" Thickness="3" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -29,7 +44,7 @@
             <LineGeometry StartPoint="18.999,62.317" EndPoint="18.999,72.317" />
           </GeometryDrawing.Geometry>
         </GeometryDrawing>
-        <GeometryDrawing x:Name="connector3leg" svg:SvgObject.Id="connector3leg">
+        <GeometryDrawing x:Name="connector3leg" Brush="#00000000" svg:SvgObject.Id="connector3leg">
           <GeometryDrawing.Pen>
             <Pen Brush="#FF8C8C8C" Thickness="3" StartLineCap="Round" EndLineCap="Round" LineJoin="Miter" />
           </GeometryDrawing.Pen>
@@ -137,7 +152,7 @@
             <DrawingGroup>
               <GlyphRunDrawing>
                 <GlyphRunDrawing.GlyphRun>
-                  <GlyphRun PixelsPerDip="2.5" BaselineOrigin="11.187109,38.516655" FontRenderingEmSize="6.66666651" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3" Characters="LD33" GlyphIndices="47 39 22 22" AdvanceWidths="3.13333333333333 4.67333333333333 3.59333333333333 3.59333333333333" GlyphOffsets="0,0 0,0 0,0 0,0" Language="en-us">
+                  <GlyphRun PixelsPerDip="1.5" BaselineOrigin="11.187109,38.516655" FontRenderingEmSize="6.66666651" BidiLevel="0" IsSideways="False" ClusterMap="0 1 2 3" Characters="LD33" GlyphIndices="47 39 22 22" AdvanceWidths="3.13333333333333 4.67333333333333 3.59333333333333 3.59333333333333" GlyphOffsets="0,0 0,0 0,0 0,0" Language="en-us">
                     <GlyphRun.GlyphTypeface>
                       <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
                     </GlyphRun.GlyphTypeface>

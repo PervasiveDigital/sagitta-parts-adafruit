@@ -13,7 +13,7 @@
     </GeometryDrawing>
     <DrawingGroup x:Name="text10512" Opacity="1" Transform="1,0,0,1,4.5036986E-06,-53.149659" svg:SvgObject.Id="text10512" />
     <DrawingGroup x:Name="schematic" Opacity="1" svg:SvgObject.Id="schematic">
-      <GeometryDrawing x:Name="path10453" svg:SvgObject.Id="path10453">
+      <GeometryDrawing x:Name="path10453" Brush="#00000000" svg:SvgObject.Id="path10453">
         <GeometryDrawing.Pen>
           <Pen Brush="#FF000000" Thickness="3" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -21,7 +21,7 @@
           <PathGeometry FillRule="Nonzero" Figures="M26.574814,53.149578L53.149624,53.149578" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path10461" svg:SvgObject.Id="path10461">
+      <GeometryDrawing x:Name="path10461" Brush="#00000000" svg:SvgObject.Id="path10461">
         <GeometryDrawing.Pen>
           <Pen Brush="#FF000000" Thickness="3" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -29,7 +29,17 @@
           <PathGeometry FillRule="Nonzero" Figures="M53.149624,26.574774L26.574821,26.574774" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path91162" svg:SvgObject.Id="path91162">
+      <GeometryDrawing x:Name="connector1pin" Brush="#00000000" svg:SvgObject.Id="connector1pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="23.0315,23.0314,7.0866,7.0866" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="connector2pin" Brush="#00000000" svg:SvgObject.Id="connector2pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="23.0315,49.6063,7.0866,7.0866" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path91162" Brush="#00000000" svg:SvgObject.Id="path91162">
         <GeometryDrawing.Pen>
           <Pen Brush="#FF000000" Thickness="3" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -37,7 +47,12 @@
           <PathGeometry FillRule="Nonzero" Figures="M26.574803,79.724398L53.149613,79.724398" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path9576" svg:SvgObject.Id="path9576">
+      <GeometryDrawing x:Name="connector3pin" Brush="#00000000" svg:SvgObject.Id="connector3pin">
+        <GeometryDrawing.Geometry>
+          <RectangleGeometry RadiusX="0" RadiusY="0" Rect="23.0315,76.1811,7.0866,7.0866" />
+        </GeometryDrawing.Geometry>
+      </GeometryDrawing>
+      <GeometryDrawing x:Name="path9576" Brush="#00000000" svg:SvgObject.Id="path9576">
         <GeometryDrawing.Pen>
           <Pen Brush="#FF000000" Thickness="3" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
         </GeometryDrawing.Pen>
@@ -45,7 +60,7 @@
           <PathGeometry FillRule="Nonzero" Figures="M53.149604,79.724408L99.212596,79.724408 106.29921,72.637788 113.38583,79.724408" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="path9580" svg:SvgObject.Id="path9580">
+      <GeometryDrawing x:Name="path9580" Brush="#00000000" svg:SvgObject.Id="path9580">
         <GeometryDrawing.Pen>
           <Pen Brush="#FF000000" Thickness="2.89087248" StartLineCap="Round" EndLineCap="Round" LineJoin="Round" />
         </GeometryDrawing.Pen>
@@ -53,7 +68,7 @@
           <PathGeometry FillRule="Nonzero" Figures="M79.724407,76.181098L76.1811,69.600668 M53.149604,53.149598L79.724407,53.149598 79.724407,76.181098 83.267715,69.600668" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing x:Name="rect9584" svg:SvgObject.Id="rect9584">
+      <GeometryDrawing x:Name="rect9584" Brush="#00000000" svg:SvgObject.Id="rect9584">
         <GeometryDrawing.Pen>
           <Pen Brush="#FF000000" Thickness="3" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Round" />
         </GeometryDrawing.Pen>

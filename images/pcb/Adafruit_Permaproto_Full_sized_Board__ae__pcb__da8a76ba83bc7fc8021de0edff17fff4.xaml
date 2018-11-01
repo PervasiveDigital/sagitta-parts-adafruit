@@ -11,6 +11,17 @@
         <RectangleGeometry Rect="0,0,10.629921,10.629921" />
       </GeometryDrawing.Geometry>
     </GeometryDrawing>
-    <DrawingGroup x:Name="layer1" Opacity="1" Transform="1,0,0,1,0,-1041.7298" svg:SvgObject.Id="layer1" />
+    <DrawingGroup x:Name="layer1" Opacity="1" Transform="1,0,0,1,0,-1041.7298" svg:SvgObject.Id="layer1">
+      <DrawingGroup x:Name="pcb" Opacity="1" svg:SvgObject.Id="pcb">
+        <GeometryDrawing x:Name="silkscreen" svg:SvgObject.Id="silkscreen">
+          <GeometryDrawing.Brush>
+            <SolidColorBrush Color="#00000000" Transform="1,0,0,1,0,1041.7298" />
+          </GeometryDrawing.Brush>
+          <GeometryDrawing.Geometry>
+            <PathGeometry FillRule="Nonzero" Transform="1,0,0,1,0,1041.7298" Figures="M7.086614,5.3149605A1.7716535,1.7716535,0,1,1,3.5433069,5.3149605A1.7716535,1.7716535,0,1,1,7.086614,5.3149605z" />
+          </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+      </DrawingGroup>
+    </DrawingGroup>
   </DrawingGroup>
 </DrawingGroup>

@@ -28,7 +28,7 @@
                       <DrawingGroup>
                         <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
                           <GlyphRunDrawing.GlyphRun>
-                            <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="3.3408" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="+" GlyphIndices="14" AdvanceWidths="2.2879" GlyphOffsets="0,0" Language="en-us">
+                            <GlyphRun PixelsPerDip="1.5" BaselineOrigin="0,0" FontRenderingEmSize="3.3408" BidiLevel="0" IsSideways="False" CaretStops="1 1" ClusterMap="0" Characters="+" GlyphIndices="14" AdvanceWidths="2.2879" GlyphOffsets="0,0" Language="en-us">
                               <GlyphRun.GlyphTypeface>
                                 <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
                               </GlyphRun.GlyphTypeface>
@@ -55,7 +55,7 @@
                       <DrawingGroup>
                         <GlyphRunDrawing ForegroundBrush="#FFFFFFFF">
                           <GlyphRunDrawing.GlyphRun>
-                            <GlyphRun PixelsPerDip="2.5" BaselineOrigin="0,0" FontRenderingEmSize="3.3408" BidiLevel="0" IsSideways="False" Characters="-" GlyphIndices="16" AdvanceWidths="1.336" Language="en-us">
+                            <GlyphRun PixelsPerDip="1.5" BaselineOrigin="0,0" FontRenderingEmSize="3.3408" BidiLevel="0" IsSideways="False" Characters="-" GlyphIndices="16" AdvanceWidths="1.336" Language="en-us">
                               <GlyphRun.GlyphTypeface>
                                 <GlyphTypeface FontUri="{svg:SvgFontUri c:/windows/fonts/segoeui.ttf}" StyleSimulations="None" />
                               </GlyphRun.GlyphTypeface>
@@ -71,7 +71,7 @@
           </DrawingGroup>
         </DrawingGroup>
       </DrawingGroup>
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.288" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
@@ -79,7 +79,7 @@
           <PathGeometry FillRule="Nonzero" Figures="M11.401,8.623C12.184,9.484 13.516,9.548 14.377,8.765 14.427,8.72 14.474,8.673 14.519,8.623" />
         </GeometryDrawing.Geometry>
       </GeometryDrawing>
-      <GeometryDrawing>
+      <GeometryDrawing Brush="#00000000">
         <GeometryDrawing.Pen>
           <Pen Brush="#FFFFFFFF" Thickness="0.288" StartLineCap="Flat" EndLineCap="Flat" LineJoin="Miter" />
         </GeometryDrawing.Pen>
