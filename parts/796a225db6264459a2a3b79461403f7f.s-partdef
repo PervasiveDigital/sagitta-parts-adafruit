@@ -1,1 +1,212 @@
-{"Id":"796a225d-b626-4459-a2a3-b79461403f7f","Title":"DHT22 Humidity and Temperature Sensor","Description":"DHT22 Humidity and Temperature Sensor","Author":"John De Cristofaro for Adafruit Industries, based on the RHT03 by Martha Maldonado","Source":"Fritzing library 'AdaFruit.fzbz'","Properties":{"fritzingModelIndex":"85410966","family":"sensors","part number":null,"fritzingVersion":"0.7.5b.07.02.6130","fritzingPartVersion":null,"fritzingDate":"2012-08-10","fritzingModuleId":"65e31feff426e0dde13a0544d0f93a7d"},"Tags":["sensor","temperature","relative","humidity"],"Views":{"breadboard":{"ViewType":"breadboard","ViewImageRef":"breadboard\\DHT22_Humidity_and_Temperature_Sensor__5__breadboard__67661d4d429261e07b957bd0624c8b6c.xaml","NativeWidthInInches":0.51181102362204722,"NativeHeightInInches":0.9055118110236221,"Layers":{}},"schematic":{"ViewType":"schematic","ViewImageRef":"schematic\\DHT22_Humidity_and_Temperature_Sensor__5__schematic__ae1e51a69b5501310a66809452990f99.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}},"pcb":{"ViewType":"pcb","ViewImageRef":"pcb\\DHT22_Humidity_and_Temperature_Sensor__5__pcb__8208ee535139cc9d3d1852dd5f67ea8f.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}}}}
+{
+  "Id": "796a225d-b626-4459-a2a3-b79461403f7f",
+  "Title": "DHT22 Humidity and Temperature Sensor",
+  "Description": "DHT22 Humidity and Temperature Sensor",
+  "Url": "https://www.adafruit.com/products/385",
+  "Author": "John De Cristofaro for Adafruit Industries, based on the RHT03 by Martha Maldonado",
+  "Source": "Fritzing library 'AdaFruit.fzbz'",
+  "Properties": {
+    "fritzingModelIndex": "85410966",
+    "family": "sensors",
+    "part number": null,
+    "fritzingVersion": "0.7.5b.07.02.6130",
+    "fritzingPartVersion": null,
+    "fritzingDate": "2012-08-10",
+    "fritzingModuleId": "65e31feff426e0dde13a0544d0f93a7d"
+  },
+  "Tags": [
+    "sensor",
+    "temperature",
+    "relative",
+    "humidity"
+  ],
+  "Views": {
+    "breadboard": {
+      "ViewType": "breadboard",
+      "ViewImageRef": "breadboard\\DHT22_Humidity_and_Temperature_Sensor__5__breadboard__67661d4d429261e07b957bd0624c8b6c.xaml",
+      "NativeWidthInInches": 0.51181102362204722,
+      "NativeHeightInInches": 0.9055118110236221,
+      "Layers": {
+        "breadboard": {}
+      }
+    },
+    "schematic": {
+      "ViewType": "schematic",
+      "ViewImageRef": "schematic\\DHT22_Humidity_and_Temperature_Sensor__5__schematic__ae1e51a69b5501310a66809452990f99.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "schematic": {}
+      }
+    },
+    "pcb": {
+      "ViewType": "pcb",
+      "ViewImageRef": "pcb\\DHT22_Humidity_and_Temperature_Sensor__5__pcb__8208ee535139cc9d3d1852dd5f67ea8f.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "copper0": {},
+        "copper1": {},
+        "silkscreen": {}
+      }
+    }
+  },
+  "SoftwarePlatforms": {},
+  "Hardware": {
+    "Connectors": {
+      "connector3": {
+        "DisplayName": "NULL",
+        "Description": "no connection",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector3",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector3pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector3pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector3pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector4": {
+        "DisplayName": "GND",
+        "Description": "Ground",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector4",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector4pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector4pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector4pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector1": {
+        "DisplayName": "VDD",
+        "Description": "supply voltage",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector1",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector1pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector1pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector2": {
+        "DisplayName": "DATA",
+        "Description": "signal",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector2",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector2pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector2pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Buses": {}
+  }
+}

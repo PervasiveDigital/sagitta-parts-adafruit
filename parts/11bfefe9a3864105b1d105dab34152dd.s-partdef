@@ -1,1 +1,142 @@
-{"Id":"11bfefe9-a386-4105-b1d1-05dab34152dd","Title":"7-Segment Panel Celsius Thermometer ","Description":"7-Segment Panel Celsius Thermometer","Author":"John De Cristofaro","Source":"Fritzing library 'AdaFruit.fzbz'","Properties":{"fritzingModelIndex":"85411022","family":null,"part number":null,"fritzingVersion":"0.7.5b.07.02.6130","fritzingPartVersion":null,"fritzingDate":"2012-09-11","fritzingModuleId":"8a096443fe991cb26dee2658ab54d3ab"},"Tags":["temp","temperature","thermo","thermometer","meter","celsius","centigrade","thermocouple","adafruit","panel"],"Views":{"breadboard":{"ViewType":"breadboard","ViewImageRef":"breadboard\\7_Segment_Panel_Celsius_Thermometer___f1__breadboard__f13c8c53e10535c5ba95ff33d3050d97.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}},"schematic":{"ViewType":"schematic","ViewImageRef":"schematic\\7_Segment_Panel_Celsius_Thermometer___f1__schematic__31dd29aa6ac1b9f529ad434cb2c46357.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}},"pcb":{"ViewType":"pcb","ViewImageRef":"pcb\\7_Segment_Panel_Celsius_Thermometer___f1__pcb__4ff31a63a0e495b401dec998738d3fdb.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}}}}
+{
+  "Id": "11bfefe9-a386-4105-b1d1-05dab34152dd",
+  "Title": "7-Segment Panel Celsius Thermometer ",
+  "Description": "7-Segment Panel Celsius Thermometer",
+  "Url": "http://www.adafruit.com/products/576",
+  "Author": "John De Cristofaro",
+  "Source": "Fritzing library 'AdaFruit.fzbz'",
+  "Properties": {
+    "fritzingModelIndex": "85411022",
+    "family": null,
+    "part number": null,
+    "fritzingVersion": "0.7.5b.07.02.6130",
+    "fritzingPartVersion": null,
+    "fritzingDate": "2012-09-11",
+    "fritzingModuleId": "8a096443fe991cb26dee2658ab54d3ab"
+  },
+  "Tags": [
+    "temp",
+    "temperature",
+    "thermo",
+    "thermometer",
+    "meter",
+    "celsius",
+    "centigrade",
+    "thermocouple",
+    "adafruit",
+    "panel"
+  ],
+  "Views": {
+    "breadboard": {
+      "ViewType": "breadboard",
+      "ViewImageRef": "breadboard\\7_Segment_Panel_Celsius_Thermometer___f1__breadboard__f13c8c53e10535c5ba95ff33d3050d97.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "breadboard": {}
+      }
+    },
+    "schematic": {
+      "ViewType": "schematic",
+      "ViewImageRef": "schematic\\7_Segment_Panel_Celsius_Thermometer___f1__schematic__31dd29aa6ac1b9f529ad434cb2c46357.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "schematic": {}
+      }
+    },
+    "pcb": {
+      "ViewType": "pcb",
+      "ViewImageRef": "pcb\\7_Segment_Panel_Celsius_Thermometer___f1__pcb__4ff31a63a0e495b401dec998738d3fdb.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "copper0": {},
+        "copper1": {},
+        "silkscreen": {}
+      }
+    }
+  },
+  "SoftwarePlatforms": {},
+  "Hardware": {
+    "Connectors": {
+      "connector1": {
+        "DisplayName": "V+",
+        "Description": "no description yet",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector2": {
+        "DisplayName": "V-",
+        "Description": "aka ground",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Buses": {}
+  }
+}

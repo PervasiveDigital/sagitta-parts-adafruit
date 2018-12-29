@@ -1,1 +1,422 @@
-{"Id":"75467c82-a19f-4e88-a48f-92828eff6870","Title":"PowerBoost 1000 Basic","Description":"The PowerBoost 1000 is a little DC/DC boost converter module that can run from 1.8V batteries or higher, and convert the battery output to 5.2V DC for running your 5V projects.  At its heart is a TPS61030 boost converter from TI. This boost converter chip has some really nice extras such as low battery detection, 4A internal switch, synchronous conversion, excellent efficiency, and 700KHz high-frequency operation.","Author":"Dean Cording","Source":"Fritzing library 'AdaFruit.fzbz'","Properties":{"fritzingModelIndex":"85411095","family":"PowerBoost","output connector":"Screw terminal","input connector":"JST","variant":"1000","fritzingVersion":"0.5.2b.02.18.4756","fritzingPartVersion":"1","fritzingDate":"2014-08-17","fritzingModuleId":"PowerBoost 1000 Basic JST Terminal"},"Tags":["adafruit","tps61090","boost converter","breakout"],"Views":{"breadboard":{"ViewType":"breadboard","ViewImageRef":"breadboard\\PowerBoost 1000 Basic JST Terminal_breadboard.xaml","NativeWidthInInches":1.46618,"NativeHeightInInches":0.903413,"Layers":{}},"schematic":{"ViewType":"schematic","ViewImageRef":"schematic\\PowerBoost 1000 Basic JST Terminal_schematic.xaml","NativeWidthInInches":1.4,"NativeHeightInInches":1.0,"Layers":{}},"pcb":{"ViewType":"pcb","ViewImageRef":"pcb\\PowerBoost 1000 Basic JST Terminal_pcb.xaml","NativeWidthInInches":1.46618,"NativeHeightInInches":0.903413,"Layers":{}}}}
+{
+  "Id": "75467c82-a19f-4e88-a48f-92828eff6870",
+  "Title": "PowerBoost 1000 Basic",
+  "Description": "The PowerBoost 1000 is a little DC/DC boost converter module that can run from 1.8V batteries or higher, and convert the battery output to 5.2V DC for running your 5V projects.  At its heart is a TPS61030 boost converter from TI. This boost converter chip has some really nice extras such as low battery detection, 4A internal switch, synchronous conversion, excellent efficiency, and 700KHz high-frequency operation.",
+  "Url": "https://www.adafruit.com/products/2030",
+  "Author": "Dean Cording",
+  "Source": "Fritzing library 'AdaFruit.fzbz'",
+  "Properties": {
+    "fritzingModelIndex": "85411095",
+    "family": "PowerBoost",
+    "output connector": "Screw terminal",
+    "input connector": "JST",
+    "variant": "1000",
+    "fritzingVersion": "0.5.2b.02.18.4756",
+    "fritzingPartVersion": "1",
+    "fritzingDate": "2014-08-17",
+    "fritzingModuleId": "PowerBoost 1000 Basic JST Terminal"
+  },
+  "Tags": [
+    "adafruit",
+    "tps61090",
+    "boost converter",
+    "breakout"
+  ],
+  "Views": {
+    "breadboard": {
+      "ViewType": "breadboard",
+      "ViewImageRef": "breadboard\\PowerBoost 1000 Basic JST Terminal_breadboard.xaml",
+      "NativeWidthInInches": 1.46618,
+      "NativeHeightInInches": 0.903413,
+      "Layers": {
+        "breadboard": {}
+      }
+    },
+    "schematic": {
+      "ViewType": "schematic",
+      "ViewImageRef": "schematic\\PowerBoost 1000 Basic JST Terminal_schematic.xaml",
+      "NativeWidthInInches": 1.4,
+      "NativeHeightInInches": 1.0,
+      "Layers": {
+        "schematic": {}
+      }
+    },
+    "pcb": {
+      "ViewType": "pcb",
+      "ViewImageRef": "pcb\\PowerBoost 1000 Basic JST Terminal_pcb.xaml",
+      "NativeWidthInInches": 1.46618,
+      "NativeHeightInInches": 0.903413,
+      "Layers": {
+        "copper1": {},
+        "silkscreen": {},
+        "copper0": {}
+      }
+    }
+  },
+  "SoftwarePlatforms": {},
+  "Hardware": {
+    "Connectors": {
+      "connector23": {
+        "DisplayName": "VBAT",
+        "Description": "Battery input 1.8V to 5V",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector23pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector23pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper0": {
+                "ConnectorIdInVisual": "connector23pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper1": {
+                "ConnectorIdInVisual": "connector23pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector24": {
+        "DisplayName": "GND",
+        "Description": "Battery/power ground",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector24pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector24pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper0": {
+                "ConnectorIdInVisual": "connector24pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper1": {
+                "ConnectorIdInVisual": "connector24pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector25": {
+        "DisplayName": "ENABLE",
+        "Description": "Enable",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector25pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector25pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper0": {
+                "ConnectorIdInVisual": "connector25pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper1": {
+                "ConnectorIdInVisual": "connector25pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector26": {
+        "DisplayName": "LBO",
+        "Description": "Low Battery Output",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector26pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector26pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper0": {
+                "ConnectorIdInVisual": "connector26pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper1": {
+                "ConnectorIdInVisual": "connector26pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector27": {
+        "DisplayName": "GND",
+        "Description": "Battery/power ground",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector27pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector27pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper0": {
+                "ConnectorIdInVisual": "connector27pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper1": {
+                "ConnectorIdInVisual": "connector27pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector28": {
+        "DisplayName": "5.0V",
+        "Description": "5.2V boosted output",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector28pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector28pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper0": {
+                "ConnectorIdInVisual": "connector28pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper1": {
+                "ConnectorIdInVisual": "connector28pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector84": {
+        "DisplayName": "GND",
+        "Description": "Battery/power ground",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector84pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector84pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector84pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector85": {
+        "DisplayName": "5.0V",
+        "Description": "5.2V boosted output",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector85pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector85pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector85pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector86": {
+        "DisplayName": "GND",
+        "Description": "Battery/power ground",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector86pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector86pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector86pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector87": {
+        "DisplayName": "VBAT",
+        "Description": "Battery input 1.8V to 5V",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector87pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector87pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector87pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Buses": {}
+  }
+}

@@ -1,1 +1,174 @@
-{"Id":"2f18f55d-239d-4106-9d69-f051ec84d4e9","Title":"DS18B20 1-Wire Temperature Sensor","Description":"DS18B20 1-Wire Temperature Sensor","Author":"John De Cristofaro for Adafruit Industries","Source":"Fritzing library 'AdaFruit.fzbz'","Properties":{"part number":"DS18B20","fritzingModelIndex":"85411044","family":"sensor","fritzingVersion":"0.7.5b.07.02.6130","fritzingPartVersion":null,"fritzingDate":"2012-08-07","fritzingModuleId":"6f006c0ea5c100c0eae6312c298c453b"},"Tags":["temp","thermometer","maxim","sensor"],"Views":{"breadboard":{"ViewType":"breadboard","ViewImageRef":"breadboard\\DS18B20__5240d891e23cace35a4de6acc361c04__breadboard__7b535917175078873c2dd8e438e15652.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}},"pcb":{"ViewType":"pcb","ViewImageRef":"pcb\\DS18B20__5240d891e23cace35a4de6acc361c04__pcb__1d5382571b4af4033f2c8ff3b34d64f3.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}},"schematic":{"ViewType":"schematic","ViewImageRef":"schematic\\DS18B20_1_Wire_Temperature_Sensor__35712__schematic__87672a622375adcf8135336d151a69ef.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}}}}
+{
+  "Id": "2f18f55d-239d-4106-9d69-f051ec84d4e9",
+  "Title": "DS18B20 1-Wire Temperature Sensor",
+  "Description": "DS18B20 1-Wire Temperature Sensor",
+  "Url": null,
+  "Author": "John De Cristofaro for Adafruit Industries",
+  "Source": "Fritzing library 'AdaFruit.fzbz'",
+  "Properties": {
+    "part number": "DS18B20",
+    "fritzingModelIndex": "85411044",
+    "family": "sensor",
+    "fritzingVersion": "0.7.5b.07.02.6130",
+    "fritzingPartVersion": null,
+    "fritzingDate": "2012-08-07",
+    "fritzingModuleId": "6f006c0ea5c100c0eae6312c298c453b"
+  },
+  "Tags": [
+    "temp",
+    "thermometer",
+    "maxim",
+    "sensor"
+  ],
+  "Views": {
+    "breadboard": {
+      "ViewType": "breadboard",
+      "ViewImageRef": "breadboard\\DS18B20__5240d891e23cace35a4de6acc361c04__breadboard__7b535917175078873c2dd8e438e15652.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "breadboard": {}
+      }
+    },
+    "pcb": {
+      "ViewType": "pcb",
+      "ViewImageRef": "pcb\\DS18B20__5240d891e23cace35a4de6acc361c04__pcb__1d5382571b4af4033f2c8ff3b34d64f3.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "copper0": {},
+        "silkscreen": {},
+        "copper1": {}
+      }
+    },
+    "schematic": {
+      "ViewType": "schematic",
+      "ViewImageRef": "schematic\\DS18B20_1_Wire_Temperature_Sensor__35712__schematic__87672a622375adcf8135336d151a69ef.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "schematic": {}
+      }
+    }
+  },
+  "SoftwarePlatforms": {},
+  "Hardware": {
+    "Connectors": {
+      "connector3": {
+        "DisplayName": "GND",
+        "Description": "ground",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector3pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector3pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector3pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector3pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector1": {
+        "DisplayName": "VDD",
+        "Description": "supply voltage (3-5V)",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector1pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector1pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector2": {
+        "DisplayName": "DQ",
+        "Description": "1-Wire Data",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector2pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector2pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Buses": {}
+  }
+}

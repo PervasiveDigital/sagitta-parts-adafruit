@@ -1,1 +1,138 @@
-{"Id":"0ba1fe2f-0b39-4b8c-96a7-09ce5bd2fb55","Title":"3xAAA Switchable Battery Pack w/JST connector","Description":"3xAAA Switchable Battery Pack with JST connector","Author":"John De Cristofaro","Source":"Fritzing library 'AdaFruit.fzbz'","Properties":{"fritzingModelIndex":"85411014","family":null,"part number":null,"fritzingVersion":"0.7.5b.07.02.6130","fritzingPartVersion":null,"fritzingDate":"2012-09-04","fritzingModuleId":"88327f7754719ca366c2940e902cddb7"},"Tags":["aaa","battery","pack","4.5","adafruit","power"],"Views":{"breadboard":{"ViewType":"breadboard","ViewImageRef":"breadboard\\3xAAA_Battery_Pack_w_Switch__477368ead57__breadboard__7d3c638e266c960d52710a1d1a4aa488.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}},"schematic":{"ViewType":"schematic","ViewImageRef":"schematic\\3xAAA_Battery_Pack_w_Switch__477368ead57__schematic__8a5b7cea8ed379922454650965c2cad2.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}},"pcb":{"ViewType":"pcb","ViewImageRef":"pcb\\3xAAA_Battery_Pack_w_Switch__477368ead57__pcb__78debba6bc69a2b465d8108a91034490.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}}}}
+{
+  "Id": "0ba1fe2f-0b39-4b8c-96a7-09ce5bd2fb55",
+  "Title": "3xAAA Switchable Battery Pack w/JST connector",
+  "Description": "3xAAA Switchable Battery Pack with JST connector",
+  "Url": "https://www.adafruit.com/products/727",
+  "Author": "John De Cristofaro",
+  "Source": "Fritzing library 'AdaFruit.fzbz'",
+  "Properties": {
+    "fritzingModelIndex": "85411014",
+    "family": null,
+    "part number": null,
+    "fritzingVersion": "0.7.5b.07.02.6130",
+    "fritzingPartVersion": null,
+    "fritzingDate": "2012-09-04",
+    "fritzingModuleId": "88327f7754719ca366c2940e902cddb7"
+  },
+  "Tags": [
+    "aaa",
+    "battery",
+    "pack",
+    "4.5",
+    "adafruit",
+    "power"
+  ],
+  "Views": {
+    "breadboard": {
+      "ViewType": "breadboard",
+      "ViewImageRef": "breadboard\\3xAAA_Battery_Pack_w_Switch__477368ead57__breadboard__7d3c638e266c960d52710a1d1a4aa488.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "breadboard": {}
+      }
+    },
+    "schematic": {
+      "ViewType": "schematic",
+      "ViewImageRef": "schematic\\3xAAA_Battery_Pack_w_Switch__477368ead57__schematic__8a5b7cea8ed379922454650965c2cad2.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "schematic": {}
+      }
+    },
+    "pcb": {
+      "ViewType": "pcb",
+      "ViewImageRef": "pcb\\3xAAA_Battery_Pack_w_Switch__477368ead57__pcb__78debba6bc69a2b465d8108a91034490.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "copper0": {},
+        "silkscreen": {},
+        "copper1": {}
+      }
+    }
+  },
+  "SoftwarePlatforms": {},
+  "Hardware": {
+    "Connectors": {
+      "connector1": {
+        "DisplayName": "POS",
+        "Description": "no description yet",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector2": {
+        "DisplayName": "NEG",
+        "Description": "no description yet",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Buses": {}
+  }
+}

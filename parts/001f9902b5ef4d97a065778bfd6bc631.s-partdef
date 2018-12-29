@@ -1,1 +1,174 @@
-{"Id":"001f9902-b5ef-4d97-a065-778bfd6bc631","Title":"STP16NF06 N-Channel Power MOSFET","Description":"STP16NF06 N-channel Power MOSFET","Author":"John De Cristofaro","Source":"Fritzing library 'AdaFruit.fzbz'","Properties":{"fritzingModelIndex":"85411018","family":null,"part number":null,"fritzingVersion":"0.7.5b.07.02.6130","fritzingPartVersion":null,"fritzingDate":"2012-09-05","fritzingModuleId":"94042fba23ae8662860e0368a4500ad6"},"Tags":["fet","mosfet","power","n-channel"],"Views":{"schematic":{"ViewType":"schematic","ViewImageRef":"schematic\\STP16NF06_N_Channel_Power_MOSFET__341848__schematic__b7811dbbe926dcdf4f1f7b094d1bc264.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}},"breadboard":{"ViewType":"breadboard","ViewImageRef":"breadboard\\STP16NF06_N_Channel_Power_MOSFET__341848__breadboard__2bf0660c6c3a051863a01859a54098da.xaml","NativeWidthInInches":0.36998001,"NativeHeightInInches":0.62317002,"Layers":{}},"pcb":{"ViewType":"pcb","ViewImageRef":"pcb\\STP16NF06_N_Channel_Power_MOSFET__341848__pcb__aa8a7218b2e191bacd22871280f70311.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}}}}
+{
+  "Id": "001f9902-b5ef-4d97-a065-778bfd6bc631",
+  "Title": "STP16NF06 N-Channel Power MOSFET",
+  "Description": "STP16NF06 N-channel Power MOSFET",
+  "Url": null,
+  "Author": "John De Cristofaro",
+  "Source": "Fritzing library 'AdaFruit.fzbz'",
+  "Properties": {
+    "fritzingModelIndex": "85411018",
+    "family": null,
+    "part number": null,
+    "fritzingVersion": "0.7.5b.07.02.6130",
+    "fritzingPartVersion": null,
+    "fritzingDate": "2012-09-05",
+    "fritzingModuleId": "94042fba23ae8662860e0368a4500ad6"
+  },
+  "Tags": [
+    "fet",
+    "mosfet",
+    "power",
+    "n-channel"
+  ],
+  "Views": {
+    "schematic": {
+      "ViewType": "schematic",
+      "ViewImageRef": "schematic\\STP16NF06_N_Channel_Power_MOSFET__341848__schematic__b7811dbbe926dcdf4f1f7b094d1bc264.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "schematic": {}
+      }
+    },
+    "breadboard": {
+      "ViewType": "breadboard",
+      "ViewImageRef": "breadboard\\STP16NF06_N_Channel_Power_MOSFET__341848__breadboard__2bf0660c6c3a051863a01859a54098da.xaml",
+      "NativeWidthInInches": 0.36998001,
+      "NativeHeightInInches": 0.62317002,
+      "Layers": {
+        "breadboard": {}
+      }
+    },
+    "pcb": {
+      "ViewType": "pcb",
+      "ViewImageRef": "pcb\\STP16NF06_N_Channel_Power_MOSFET__341848__pcb__aa8a7218b2e191bacd22871280f70311.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "copper0": {},
+        "copper1": {},
+        "silkscreen": {}
+      }
+    }
+  },
+  "SoftwarePlatforms": {},
+  "Hardware": {
+    "Connectors": {
+      "connector3": {
+        "DisplayName": "source",
+        "Description": "no description yet",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector3pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector3pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector3pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector3pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector1": {
+        "DisplayName": "gate",
+        "Description": "no description yet",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector1pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector1pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector2": {
+        "DisplayName": "drain",
+        "Description": "no description yet",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "pcb": {
+            "Layers": {
+              "copper1": {
+                "ConnectorIdInVisual": "connector2pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              },
+              "copper0": {
+                "ConnectorIdInVisual": "connector2pad",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Buses": {}
+  }
+}

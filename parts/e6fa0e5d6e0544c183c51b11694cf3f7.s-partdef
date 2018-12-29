@@ -1,1 +1,150 @@
-{"Id":"e6fa0e5d-6e05-44c1-83c5-1b11694cf3f7","Title":"Adafruit FLORA NeoPixel","Description":"Adafruit FLORA RGB Smart Pixel","Author":"John De Cristofaro","Source":"Fritzing library 'AdaFruit.fzbz'","Properties":{"fritzingModelIndex":"85419502","part number":null,"variant":"variant 1","family":"Adafruit FLORA NeoPixel","fritzingVersion":"0.7.5b.07.02.6130","fritzingPartVersion":null,"fritzingDate":"Mon Jul 4 2016","fritzingModuleId":"prefix0000_42d143f124ea8a17d858c0ae142c92d3_1"},"Tags":["adafruit","flora","led","rgb","pixel","wearable","conductive","thread"],"Views":{"breadboard":{"ViewType":"breadboard","ViewImageRef":"breadboard\\prefix0000_42d143f124ea8a17d858c0ae142c92d3_1_breadboard.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}},"schematic":{"ViewType":"schematic","ViewImageRef":"schematic\\prefix0000_42d143f124ea8a17d858c0ae142c92d3_1_schematic.xaml","NativeWidthInInches":"NaN","NativeHeightInInches":"NaN","Layers":{}}}}
+{
+  "Id": "e6fa0e5d-6e05-44c1-83c5-1b11694cf3f7",
+  "Title": "Adafruit FLORA NeoPixel",
+  "Description": "Adafruit FLORA RGB Smart Pixel",
+  "Url": "https://www.adafruit.com/products/1260",
+  "Author": "John De Cristofaro",
+  "Source": "Fritzing library 'AdaFruit.fzbz'",
+  "Properties": {
+    "fritzingModelIndex": "85419502",
+    "part number": null,
+    "variant": "variant 1",
+    "family": "Adafruit FLORA NeoPixel",
+    "fritzingVersion": "0.7.5b.07.02.6130",
+    "fritzingPartVersion": null,
+    "fritzingDate": "Mon Jul 4 2016",
+    "fritzingModuleId": "prefix0000_42d143f124ea8a17d858c0ae142c92d3_1"
+  },
+  "Tags": [
+    "adafruit",
+    "flora",
+    "led",
+    "rgb",
+    "pixel",
+    "wearable",
+    "conductive",
+    "thread"
+  ],
+  "Views": {
+    "breadboard": {
+      "ViewType": "breadboard",
+      "ViewImageRef": "breadboard\\prefix0000_42d143f124ea8a17d858c0ae142c92d3_1_breadboard.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "breadboard": {}
+      }
+    },
+    "schematic": {
+      "ViewType": "schematic",
+      "ViewImageRef": "schematic\\prefix0000_42d143f124ea8a17d858c0ae142c92d3_1_schematic.xaml",
+      "NativeWidthInInches": "NaN",
+      "NativeHeightInInches": "NaN",
+      "Layers": {
+        "schematic": {}
+      }
+    }
+  },
+  "SoftwarePlatforms": {},
+  "Hardware": {
+    "Connectors": {
+      "connector3": {
+        "DisplayName": "GND",
+        "Description": "ground",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector3pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector3pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector4": {
+        "DisplayName": "OUT",
+        "Description": "out",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector4pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector4pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector1": {
+        "DisplayName": "V+",
+        "Description": "supply voltage",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector1pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      },
+      "connector2": {
+        "DisplayName": "IN",
+        "Description": "DATA IN",
+        "Views": {
+          "breadboard": {
+            "Layers": {
+              "breadboard": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          },
+          "schematic": {
+            "Layers": {
+              "schematic": {
+                "ConnectorIdInVisual": "connector2pin",
+                "ConnectorType": "unknown",
+                "ConnectorRole": "unknown"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Buses": {}
+  }
+}
